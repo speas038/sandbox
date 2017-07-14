@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+sudo /home/alex/rump/rumprun/rumprun/bin/rumprun xen \
+	-di \
+	-I xen0,xenif \
+	-W xen0,inet,static,10.1.2.130/24 \
+	./echo_client-rumprun.run \
+	| tee -a echo_server_time.dat

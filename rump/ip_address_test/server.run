@@ -1,0 +1,20 @@
+#!/bin/bash
+
+IP=10.0.2.134
+
+x86_64-rumprun-netbsd-gcc test.c -o test 
+rumprun-bake test.run test
+
+
+echo "gdb -tui -ex 'target remote:1234' xenevent.run"
+
+rumprun -S xen -di -M 512 -N test-rump \
+	-I xen0,xenif \
+	-W xen0,inet,static,$IP/24 \
+	./test.run
+
+
+#sudo /home/alex/rump/rumprun/rumprun/bin/rumprun xen -di \
+#	-I xen0,xenif \
+#	-W xen0,inet,dhcp \
+#	./test.run

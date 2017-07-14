@@ -1,0 +1,1591 @@
+  start_info: 0x407000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0x2608a000(MA)
+     pt_base: 0x40a000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x3e7000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x354080-0x3d4080
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x1c9eda(VA)
+   _erodata: 0x265000(VA)
+     _edata: 0x28dac8(VA)
+stack start: 0x354080(VA)
+       _end: 0x3e66a8(VA)
+  start_pfn: 414
+    max_pfn: 4000
+Mapping memory range 0x414000 - 0x4000000
+setting 0x0-0x265000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 430000(430000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x1e2dff
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30560 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/13/0
+netfront: MAC 00:16:3e:57:ee:30
+xenif0: Ethernet address 00:16:3e:57:ee:30
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+Connected
+time: 0    0.000001
+time: 1    0.025672
+time: 2    0.023156
+time: 3    0.036267
+time: 4    0.061720
+time: 5    0.095694
+time: 6    0.173728
+time: 7    0.163878
+time: 8    0.222096
+time: 9    0.181285
+time: 10    0.250364
+time: 11    0.305088
+time: 12    0.270138
+time: 13    0.351406
+time: 14    0.318633
+time: 15    0.357894
+time: 16    0.419938
+time: 17    0.389994
+time: 18    0.448979
+time: 19    0.527385
+time: 20    0.470178
+time: 21    0.552051
+time: 22    0.550143
+time: 23    0.514852
+time: 24    0.598299
+time: 25    0.631332
+time: 26    0.691019
+time: 27    0.665790
+time: 28    0.627197
+time: 29    0.767285
+time: 30    0.686827
+time: 31    0.814510
+time: 32    0.770096
+time: 33    0.835362
+time: 34    0.811200
+time: 35    0.948273
+time: 36    0.847277
+time: 37    0.949976
+time: 38    0.886763
+time: 39    0.997718
+time: 40    1.018586
+time: 41    1.009594
+time: 42    1.072732
+time: 43    1.083760
+time: 44    1.087108
+time: 45    1.139150
+time: 46    1.087013
+time: 47    1.196412
+time: 48    1.200002
+time: 49    1.208961
+time: 50    1.246993
+time: 51    1.247789
+time: 52    1.316390
+time: 53    1.302095
+time: 54    1.360590
+time: 55    1.380242
+time: 56    1.413270
+time: 57    1.418049
+time: 58    1.451339
+time: 59    1.426894
+time: 60    1.480215
+time: 61    1.552036
+time: 62    1.505919
+time: 63    1.573928
+time: 64    1.596738
+time: 65    1.627177
+time: 66    1.612952
+time: 67    1.674718
+time: 68    1.719622
+time: 69    1.696885
+time: 70    1.766422
+time: 71    1.765158
+time: 72    1.737791
+time: 73    1.820664
+time: 74    1.843706
+time: 75    1.892048
+time: 76    1.868618
+time: 77    1.965940
+time: 78    1.872379
+time: 79    1.994357
+time: 80    2.011762
+time: 81    2.013424
+time: 82    2.039875
+time: 83    2.028482
+time: 84    2.095093
+time: 85    2.124806
+time: 86    2.087093
+time: 87    2.192489
+time: 88    2.201822
+time: 89    2.228319
+time: 90    2.250397
+time: 91    2.252045
+time: 92    2.260121
+time: 93    2.350558
+time: 94    2.296232
+time: 95    2.403675
+time: 96    2.386867
+time: 97    2.263436
+time: 98    2.586162
+time: 99    2.450930
+time: 100    2.490043
+time: 101    2.508772
+time: 102    2.512825
+time: 103    2.595480
+time: 104    2.595474
+time: 105    2.599944
+time: 106    2.624177
+time: 107    2.702968
+time: 108    2.642288
+time: 109    2.781035
+time: 110    2.658621
+time: 111    2.795451
+time: 112    2.750867
+time: 113    2.794227
+time: 114    2.886472
+time: 115    2.794346
+time: 116    2.945199
+time: 117    2.858723
+time: 118    2.981720
+time: 119    2.903575
+time: 120    2.966337
+time: 121    3.029787
+time: 122    3.007292
+time: 123    3.080053
+time: 124    3.037698
+time: 125    3.065763
+time: 126    3.178299
+time: 127    3.194262
+time: 128    3.127080
+time: 129    3.242998
+time: 130    3.219705
+time: 131    3.290187
+time: 132    3.262521
+time: 133    3.334851
+time: 134    3.324597
+time: 135    3.372962
+time: 136    3.386597
+time: 137    3.369471
+time: 138    3.453828
+time: 139    3.516872
+time: 140    3.444193
+time: 141    3.462825
+time: 142    3.495413
+time: 143    3.600623
+time: 144    3.571362
+time: 145    3.621730
+time: 146    3.529238
+time: 147    3.771890
+time: 148    3.675292
+time: 149    3.674661
+time: 150    3.711338
+time: 151    3.823972
+time: 152    3.783436
+time: 153    3.738404
+time: 154    3.800281
+time: 155    3.916900
+time: 156    3.886655
+time: 157    3.895920
+time: 158    3.889090
+time: 159    4.009576
+time: 160    3.974486
+time: 161    4.028802
+time: 162    3.968177
+time: 163    4.014776
+time: 164    4.137992
+time: 165    4.107484
+time: 166    4.100389
+time: 167    4.164646
+time: 168    4.144322
+time: 169    4.230317
+time: 170    4.215760
+time: 171    4.254423
+time: 172    4.305825
+time: 173    4.222971
+time: 174    4.378021
+time: 175    4.326849
+time: 176    4.385427
+time: 177    4.442550
+time: 178    4.342863
+time: 179    4.535378
+time: 180    4.465209
+time: 181    4.486743
+time: 182    4.525856
+time: 183    4.549329
+time: 184    4.527104
+time: 185    4.597915
+time: 186    4.644892
+time: 187    4.672387
+time: 188    4.685511
+time: 189    4.679500
+time: 190    4.736047
+time: 191    4.713502
+time: 192    4.791765
+time: 193    4.765277
+time: 194    4.835796
+time: 195    4.862663
+time: 196    4.876470
+time: 197    4.823683
+time: 198    5.033876
+time: 199    4.875726
+time: 200    5.249609
+time: 201    5.041504
+time: 202    5.039677
+time: 203    5.069667
+time: 204    5.053499
+time: 205    5.124118
+time: 206    5.046824
+time: 207    5.226344
+time: 208    5.125791
+time: 209    5.222112
+time: 210    5.208394
+time: 211    5.257819
+time: 212    5.279424
+time: 213    5.239547
+time: 214    5.336125
+time: 215    5.426824
+time: 216    5.292078
+time: 217    5.438817
+time: 218    5.421941
+time: 219    5.490410
+time: 220    5.463739
+time: 221    5.485577
+time: 222    5.560815
+time: 223    5.576413
+time: 224    5.522969
+time: 225    5.654615
+time: 226    5.601091
+time: 227    5.712852
+time: 228    5.711483
+time: 229    5.692464
+time: 230    5.829434
+time: 231    5.787660
+time: 232    5.825049
+time: 233    5.826030
+time: 234    5.834366
+time: 235    5.937261
+time: 236    5.867532
+time: 237    5.965812
+time: 238    6.006956
+time: 239    5.993186
+time: 240    6.042635
+time: 241    6.096489
+time: 242    6.050578
+time: 243    6.093683
+time: 244    6.149327
+time: 245    6.133593
+time: 246    6.067157
+time: 247    6.164291
+time: 248    6.186471
+time: 249    6.242463
+time: 250    6.316412
+time: 251    6.248732
+time: 252    6.398823
+time: 253    6.350614
+time: 254    6.371085
+time: 255    6.343630
+time: 256    6.351434
+time: 257    6.493725
+time: 258    6.471186
+time: 259    6.613371
+time: 260    6.544058
+time: 261    6.552108
+time: 262    6.629136
+time: 263    6.514852
+time: 264    6.648188
+time: 265    6.556770
+time: 266    6.651271
+time: 267    6.711912
+time: 268    6.668693
+time: 269    6.754231
+time: 270    6.719602
+time: 271    6.857158
+time: 272    6.808914
+time: 273    6.814100
+time: 274    6.881784
+time: 275    6.807194
+time: 276    6.997002
+time: 277    6.930077
+time: 278    7.024408
+time: 279    6.943763
+time: 280    7.043340
+time: 281    7.206507
+time: 282    7.141005
+time: 283    6.960345
+time: 284    7.083260
+time: 285    7.172684
+time: 286    7.179769
+time: 287    7.074367
+time: 288    7.196853
+time: 289    7.207393
+time: 290    7.259591
+time: 291    7.233333
+time: 292    7.323134
+time: 293    7.309984
+time: 294    7.318437
+time: 295    7.460844
+time: 296    7.383700
+time: 297    7.456479
+time: 298    7.446643
+time: 299    7.457691
+time: 300    7.581513
+time: 301    7.415093
+time: 302    7.638202
+time: 303    7.497763
+time: 304    7.627403
+time: 305    7.583734
+time: 306    7.662049
+time: 307    7.683071
+time: 308    7.724791
+time: 309    7.705527
+time: 310    7.759360
+time: 311    7.907160
+time: 312    7.745228
+time: 313    7.826198
+time: 314    7.798025
+time: 315    7.902133
+time: 316    7.870125
+time: 317    7.879917
+time: 318    7.948691
+time: 319    8.080088
+time: 320    8.019836
+time: 321    7.970979
+time: 322    8.023102
+time: 323    8.039075
+time: 324    8.090119
+time: 325    8.194032
+time: 326    8.140503
+time: 327    8.156041
+time: 328    8.276202
+time: 329    8.180176
+time: 330    8.253193
+time: 331    8.276786
+time: 332    8.229820
+time: 333    8.297697
+time: 334    8.338931
+time: 335    8.466194
+time: 336    8.351616
+time: 337    8.524051
+time: 338    8.493894
+time: 339    8.561518
+time: 340    8.458726
+time: 341    8.507064
+time: 342    8.579449
+time: 343    8.600923
+time: 344    8.561940
+time: 345    8.716535
+time: 346    8.649287
+time: 347    8.572894
+time: 348    8.833302
+time: 349    8.713815
+time: 350    8.811393
+time: 351    8.674261
+time: 352    8.839992
+time: 353    8.886714
+time: 354    8.828918
+time: 355    8.984593
+time: 356    8.927440
+time: 357    8.953122
+time: 358    8.940631
+time: 359    8.992073
+time: 360    9.125937
+time: 361    9.038893
+time: 362    8.993253
+time: 363    9.134521
+time: 364    9.071164
+time: 365    9.137277
+time: 366    9.171456
+time: 367    9.179437
+time: 368    9.219964
+time: 369    9.213338
+time: 370    9.210104
+time: 371    9.346282
+time: 372    9.291714
+time: 373    9.330055
+time: 374    9.368026
+time: 375    9.466530
+time: 376    9.435637
+time: 377    9.473008
+time: 378    9.458811
+time: 379    9.561015
+time: 380    9.586042
+time: 381    9.603366
+time: 382    9.497678
+time: 383    9.588671
+time: 384    9.541354
+time: 385    9.599340
+time: 386    9.698974
+time: 387    9.704408
+time: 388    9.765525
+time: 389    9.719717
+time: 390    9.758934
+time: 391    9.774312
+time: 392    9.834917
+time: 393    9.895925
+time: 394    9.817372
+time: 395    9.929804
+time: 396    9.839489
+time: 397    9.859562
+time: 398    9.910991
+time: 399    10.066535
+time: 400    10.123022
+time: 401    9.968262
+time: 402    10.035398
+time: 403    10.136308
+time: 404    10.008631
+time: 405    10.113934
+time: 406    10.251992
+time: 407    10.101207
+time: 408    10.134353
+time: 409    10.280725
+time: 410    10.239185
+time: 411    10.349821
+time: 412    10.347570
+time: 413    10.350559
+time: 414    10.329795
+time: 415    10.445748
+time: 416    10.431004
+time: 417    10.418562
+time: 418    10.439810
+time: 419    10.495302
+time: 420    10.490294
+time: 421    10.459196
+time: 422    10.590612
+time: 423    10.499151
+time: 424    10.639264
+time: 425    10.540931
+time: 426    10.686713
+time: 427    10.622998
+time: 428    10.652510
+time: 429    10.727148
+time: 430    10.715327
+time: 431    10.771657
+time: 432    10.734147
+time: 433    10.672606
+time: 434    10.800041
+time: 435    10.733615
+time: 436    10.855834
+time: 437    10.879528
+time: 438    10.906426
+time: 439    10.801595
+time: 440    10.946720
+time: 441    11.009604
+time: 442    10.986333
+time: 443    10.959379
+time: 444    11.047846
+time: 445    11.096652
+time: 446    11.059609
+time: 447    11.084492
+time: 448    11.131431
+time: 449    11.187825
+time: 450    11.173354
+time: 451    11.266716
+time: 452    11.245825
+time: 453    11.318215
+time: 454    11.305213
+time: 455    11.335643
+time: 456    11.295762
+time: 457    11.361105
+time: 458    11.462724
+time: 459    11.337388
+time: 460    11.487773
+time: 461    11.367810
+time: 462    11.437250
+time: 463    11.507092
+time: 464    11.479030
+time: 465    11.562162
+time: 466    11.616879
+time: 467    11.570579
+time: 468    11.664822
+time: 469    11.593882
+time: 470    11.711300
+time: 471    11.708876
+time: 472    11.719112
+time: 473    11.728137
+time: 474    11.817982
+time: 475    11.809095
+time: 476    11.859064
+time: 477    11.758721
+time: 478    11.947484
+time: 479    11.905891
+time: 480    11.964978
+time: 481    11.954732
+time: 482    12.048571
+time: 483    12.050065
+time: 484    11.985473
+time: 485    12.097264
+time: 486    12.121575
+time: 487    12.072128
+time: 488    12.191232
+time: 489    12.129905
+time: 490    12.148196
+time: 491    12.205953
+time: 492    12.304131
+time: 493    12.177393
+time: 494    12.327908
+time: 495    12.296332
+time: 496    12.520051
+time: 497    12.370005
+time: 498    12.348305
+time: 499    12.417855
+time: 500    12.514741
+time: 501    12.482407
+time: 502    12.475495
+time: 503    12.499295
+time: 504    12.522532
+time: 505    12.570812
+time: 506    12.637949
+time: 507    12.565190
+time: 508    12.633862
+time: 509    12.694748
+time: 510    12.741339
+time: 511    12.725342
+time: 512    12.666294
+time: 513    12.779014
+time: 514    12.821719
+time: 515    12.828419
+time: 516    12.863010
+time: 517    12.796337
+time: 518    12.920634
+time: 519    12.821616
+time: 520    13.090909
+time: 521    12.844861
+time: 522    13.011351
+time: 523    12.952064
+time: 524    14.202060
+time: 525    13.166189
+time: 526    13.165171
+time: 527    13.066816
+time: 528    13.148297
+time: 529    13.204287
+time: 530    13.130676
+time: 531    13.168636
+time: 532    13.280469
+time: 533    13.220556
+time: 534    13.319768
+time: 535    13.264551
+time: 536    13.322076
+time: 537    13.335047
+time: 538    13.375146
+time: 539    13.346855
+time: 540    13.429785
+time: 541    13.433518
+time: 542    13.499228
+time: 543    13.559749
+time: 544    13.511180
+time: 545    13.554314
+time: 546    13.576717
+time: 547    13.529236
+time: 548    13.754171
+time: 549    13.692943
+time: 550    13.664491
+time: 551    13.650186
+time: 552    13.757235
+time: 553    13.686695
+time: 554    13.713016
+time: 555    13.731701
+time: 556    13.892851
+time: 557    13.878011
+time: 558    13.810866
+time: 559    13.892955
+time: 560    13.974664
+time: 561    13.911619
+time: 562    13.923720
+time: 563    14.029597
+time: 564    14.020122
+time: 565    14.047880
+time: 566    14.041261
+time: 567    14.115567
+time: 568    14.189379
+time: 569    14.108089
+time: 570    14.141673
+time: 571    14.141944
+time: 572    14.241392
+time: 573    14.218906
+time: 574    14.167225
+time: 575    14.345731
+time: 576    14.315736
+  start_info: 0x4af000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0x8b90d000(MA)
+     pt_base: 0x4b2000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x48f000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x3fc3e0-0x47c3e0
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x27124a(VA)
+   _erodata: 0x30d000(VA)
+     _edata: 0x335e58(VA)
+stack start: 0x3fc3e0(VA)
+       _end: 0x48e9e8(VA)
+  start_pfn: 4bc
+    max_pfn: 4000
+Mapping memory range 0x4bc000 - 0x4000000
+setting 0x0-0x30d000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 4d8000(4d8000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x1215da
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30224 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/1051/0
+netfront: MAC 00:16:3e:10:ba:74
+xenif0: Ethernet address 00:16:3e:10:ba:74
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+connect failed. Error
+=== ERROR: _exit(1) called ===
+rump kernel halting...
+syncing disks... done
+unmounting file systems...
+unmounted kernfs on /kern type kernfs
+unmounted tmpfs on /tmp type tmpfs
+unmounted rumpfs on / type rumpfs
+unmounting done
+port 4 still bound!
+minios: halting, reason=0
+  start_info: 0x4af000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0x8b92e000(MA)
+     pt_base: 0x4b2000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x48f000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x3fc3e0-0x47c3e0
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x27124a(VA)
+   _erodata: 0x30d000(VA)
+     _edata: 0x335e58(VA)
+stack start: 0x3fc3e0(VA)
+       _end: 0x48e9e8(VA)
+  start_pfn: 4bc
+    max_pfn: 4000
+Mapping memory range 0x4bc000 - 0x4000000
+setting 0x0-0x30d000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 4d8000(4d8000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x144252
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30224 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/1053/0
+netfront: MAC 00:16:3e:36:45:8c
+xenif0: Ethernet address 00:16:3e:36:45:8c
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+Connected
+time: 0    0.000002
+time: 1    0.040893
+time: 2    0.038113
+time: 3    0.040639
+time: 4    0.058627
+time: 5    0.143067
+time: 6    0.109588
+time: 7    0.191236
+time: 8    0.186030
+time: 9    0.223121
+time: 10    0.305093
+time: 11    0.283861
+time: 12    0.249769
+time: 13    0.324060
+time: 14    0.379160
+time: 15    0.388143
+time: 16    0.317754
+time: 17    0.483578
+time: 18    0.460035
+time: 19    0.447894
+time: 20    0.528609
+time: 21    0.470488
+time: 22    0.559416
+time: 23    0.573941
+time: 24    0.609020
+time: 25    0.620985
+time: 26    0.626758
+time: 27    0.637531
+time: 28    0.748497
+time: 29    0.682067
+time: 30    0.777016
+time: 31    0.779780
+time: 32    0.796334
+time: 33    0.822828
+time: 34    0.829626
+time: 35    0.910676
+time: 36    0.884525
+time: 37    0.863682
+time: 38    0.971138
+time: 39    1.000858
+time: 40    1.005483
+time: 41    0.997968
+time: 42    1.031535
+time: 43    1.038244
+time: 44    1.067844
+time: 45    1.150795
+time: 46    1.163739
+time: 47    1.119755
+time: 48    1.198236
+time: 49    1.208435
+time: 50    1.259505
+time: 51    1.306274
+time: 52    1.280247
+time: 53    1.325312
+time: 54    1.329287
+time: 55    1.350671
+time: 56    1.413174
+time: 57    1.416769
+time: 58    1.454611
+time: 59    1.447032
+time: 60    1.527839
+time: 61    1.495876
+time: 62    1.564709
+time: 63    1.563671
+time: 64    1.514779
+time: 65    1.740747
+time: 66    1.619170
+time: 67    1.677967
+time: 68    1.669357
+time: 69    1.751693
+time: 70    1.765358
+time: 71    1.708619
+time: 72    1.809799
+time: 73    1.804841
+time: 74    1.904147
+time: 75    1.796319
+time: 76    1.923747
+time: 77    1.913666
+time: 78    1.925396
+time: 79    1.908207
+time: 80    2.007805
+time: 81    2.005636
+time: 82    2.049582
+time: 83    2.128047
+time: 84    2.065606
+time: 85    2.096341
+time: 86    2.105492
+time: 87    2.197174
+time: 88    2.111493
+time: 89    2.267112
+time: 90    2.297033
+time: 91    2.270259
+time: 92    2.267449
+time: 93    2.252983
+time: 94    2.403344
+time: 95    2.377311
+time: 96    2.340478
+time: 97    2.415853
+time: 98    2.409921
+time: 99    2.511927
+Send failed
+
+=== ERROR: _exit(1) called ===
+rump kernel halting...
+syncing disks... done
+unmounting file systems...
+unmounted kernfs on /kern type kernfs
+unmounted tmpfs on /tmp type tmpfs
+unmounted rumpfs on / type rumpfs
+unmounting done
+port 4 still bound!
+minios: halting, reason=0
+  start_info: 0x4af000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0x8b911000(MA)
+     pt_base: 0x4b2000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x48f000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x3fc3e0-0x47c3e0
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x27124a(VA)
+   _erodata: 0x30d000(VA)
+     _edata: 0x335e58(VA)
+stack start: 0x3fc3e0(VA)
+       _end: 0x48e9e8(VA)
+  start_pfn: 4bc
+    max_pfn: 4000
+Mapping memory range 0x4bc000 - 0x4000000
+setting 0x0-0x30d000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 4d8000(4d8000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x13c4e5
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30224 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/1054/0
+netfront: MAC 00:16:3e:13:2e:ce
+xenif0: Ethernet address 00:16:3e:13:2e:ce
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+connect failed. Error
+=== ERROR: _exit(1) called ===
+rump kernel halting...
+syncing disks... done
+unmounting file systems...
+unmounted kernfs on /kern type kernfs
+unmounted tmpfs on /tmp type tmpfs
+unmounted rumpfs on / type rumpfs
+unmounting done
+port 4 still bound!
+minios: halting, reason=0
+  start_info: 0x4af000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0x8b94d000(MA)
+     pt_base: 0x4b2000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x48f000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x3fc3e0-0x47c3e0
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x27124a(VA)
+   _erodata: 0x30d000(VA)
+     _edata: 0x335e58(VA)
+stack start: 0x3fc3e0(VA)
+       _end: 0x48e9e8(VA)
+  start_pfn: 4bc
+    max_pfn: 4000
+Mapping memory range 0x4bc000 - 0x4000000
+setting 0x0-0x30d000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 4d8000(4d8000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x13e651
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30224 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/1056/0
+netfront: MAC 00:16:3e:0c:d8:b9
+xenif0: Ethernet address 00:16:3e:0c:d8:b9
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+Connected
+time: 0    0.000002
+time: 1    0.035470
+time: 2    0.027396
+time: 3    0.043078
+time: 4    0.060945
+time: 5    0.152482
+time: 6    0.142301
+time: 7    0.138776
+time: 8    0.206849
+time: 9    0.226534
+time: 10    0.252928
+time: 11    0.311937
+time: 12    0.257497
+time: 13    0.330829
+time: 14    0.383407
+time: 15    0.304958
+time: 16    0.415107
+time: 17    0.427006
+time: 18    0.493274
+time: 19    0.438192
+time: 20    0.484057
+time: 21    0.550644
+time: 22    0.555065
+time: 23    0.580260
+time: 24    0.607035
+time: 25    0.614815
+time: 26    0.620961
+time: 27    0.709119
+time: 28    0.699853
+time: 29    0.702653
+time: 30    0.745507
+time: 31    0.770222
+time: 32    0.815077
+time: 33    0.805616
+time: 34    0.854218
+time: 35    0.856340
+time: 36    0.853640
+time: 37    0.937832
+time: 38    0.956318
+time: 39    0.946953
+time: 40    0.997787
+time: 41    1.016552
+time: 42    1.078486
+time: 43    1.037726
+time: 44    1.077826
+time: 45    1.151460
+time: 46    1.102592
+recv failed
+time: 47    1.989478
+Send failed
+
+=== ERROR: _exit(1) called ===
+rump kernel halting...
+syncing disks... done
+unmounting file systems...
+unmounted kernfs on /kern type kernfs
+unmounted tmpfs on /tmp type tmpfs
+unmounted rumpfs on / type rumpfs
+unmounting done
+port 4 still bound!
+minios: halting, reason=0
+  start_info: 0x4af000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0x8b927000(MA)
+     pt_base: 0x4b2000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x48f000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x3fc3e0-0x47c3e0
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x27124a(VA)
+   _erodata: 0x30d000(VA)
+     _edata: 0x335e58(VA)
+stack start: 0x3fc3e0(VA)
+       _end: 0x48e9e8(VA)
+  start_pfn: 4bc
+    max_pfn: 4000
+Mapping memory range 0x4bc000 - 0x4000000
+setting 0x0-0x30d000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 4d8000(4d8000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x120c5c
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30224 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/1070/0
+netfront: MAC 00:16:3e:2b:4c:2a
+xenif0: Ethernet address 00:16:3e:2b:4c:2a
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+Connected
+time: 0    0.000001
+time: 1    0.039391
+time: 2    0.016703
+time: 3    0.054812
+time: 4    0.083295
+time: 5    0.131498
+time: 6    0.127077
+time: 7    0.151094
+time: 8    0.203404
+time: 9    0.218135
+time: 10    0.245969
+time: 11    0.300475
+time: 12    0.312214
+time: 13    0.318191
+time: 14    0.349802
+time: 15    0.329825
+time: 16    0.399714
+time: 17    0.476169
+time: 18    0.441282
+time: 19    0.478132
+time: 20    0.514602
+time: 21    0.481594
+time: 22    0.557076
+time: 23    0.587705
+time: 24    0.553820
+time: 25    0.671510
+time: 26    0.637695
+time: 27    0.674936
+time: 28    0.723651
+time: 29    0.693387
+time: 30    0.747935
+time: 31    0.787827
+time: 32    0.804677
+time: 33    0.834541
+time: 34    0.813986
+time: 35    0.880393
+time: 36    0.892059
+time: 37    0.928929
+time: 38    0.969582
+time: 39    0.992011
+time: 40    0.989767
+time: 41    0.979905
+time: 42    1.076684
+time: 43    1.113014
+time: 44    1.058598
+time: 45    1.108297
+time: 46    1.170241
+time: 47    1.114536
+time: 48    1.131850
+time: 49    1.325089
+time: 50    1.303428
+time: 51    1.238501
+time: 52    1.245666
+time: 53    1.373628
+time: 54    1.378689
+Send failed
+
+=== ERROR: _exit(1) called ===
+rump kernel halting...
+syncing disks... done
+unmounting file systems...
+unmounted kernfs on /kern type kernfs
+unmounted tmpfs on /tmp type tmpfs
+unmounted rumpfs on / type rumpfs
+unmounting done
+port 4 still bound!
+minios: halting, reason=0
+  start_info: 0x4af000(VA)
+    nr_pages: 0x4000
+  shared_inf: 0xdfc71000(MA)
+     pt_base: 0x4b2000(VA)
+nr_pt_frames: 0x7
+    mfn_list: 0x48f000(VA)
+   mod_start: 0x0(VA)
+     mod_len: 0
+       flags: 0x0
+    cmd_line: 
+  stack:      0x3fc3e0-0x47c3e0
+MM: Init
+      _text: 0x0(VA)
+     _etext: 0x27124a(VA)
+   _erodata: 0x30d000(VA)
+     _edata: 0x335e58(VA)
+stack start: 0x3fc3e0(VA)
+       _end: 0x48e9e8(VA)
+  start_pfn: 4bc
+    max_pfn: 4000
+Mapping memory range 0x4bc000 - 0x4000000
+setting 0x0-0x30d000 readonly
+skipped 0x1000
+MM: Initialise page allocator for 4d8000(4d8000)-4000000(4000000)
+MM: done
+Demand map pfns at 4001000-2004001000.
+Initialising timer interface
+Initialising console ... done.
+gnttab_table mapped at 0x4001000.
+xenbus initialised on irq 1 mfn 0x1eb88d
+Failed to read device/pci/0/backend-id.
+no backend
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 7.99.34 (RUMP-ROAST)
+total memory = 30224 KB
+timecounter: Timecounters tick every 10.000 msec
+timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+cpu0 at thinair0: rump virtual cpu
+root file system type: rumpfs
+kern.module.path=/stand/amd64/7.99.34/modules
+mainbus0 (root)
+timecounter: Timecounter "bmktc" frequency 1000000000 Hz quality 100
+mounted tmpfs on /tmp
+net TX ring size 256
+net RX ring size 256
+netfront: node=device/vif/0 backend=/local/domain/0/backend/vif/20/0
+netfront: MAC 00:16:3e:52:7b:7f
+xenif0: Ethernet address 00:16:3e:52:7b:7f
+
+=== calling "./echo_client-rumprun.run" main() ===
+
+Socket created
+Connected
+time: 0    0.000003
+time: 1    0.039501
+time: 2    0.020719
+time: 3    0.018734
+time: 4    0.058112
+time: 5    0.074190
+time: 6    0.168836
+time: 7    0.196120
+time: 8    0.223989
+time: 9    0.199963
+time: 10    0.252787
+time: 11    0.287494
+time: 12    0.267992
+time: 13    0.366192
+time: 14    0.275460
+time: 15    0.393182
+time: 16    0.417123
+time: 17    0.406133
+time: 18    0.492524
+time: 19    0.434078
+time: 20    0.474853
+time: 21    0.559150
+time: 22    0.467866
+time: 23    0.594638
+time: 24    0.583790
+time: 25    0.626101
+time: 26    0.705458
+time: 27    0.651875
+time: 28    0.663840
+time: 29    0.743751
+time: 30    0.775412
+time: 31    0.725024
+time: 32    0.789848
+time: 33    0.811652
+time: 34    0.898222
+time: 35    0.855188
+time: 36    0.904223
+time: 37    0.896516
+time: 38    0.904510
+time: 39    0.979776
+time: 40    1.002617
+time: 41    1.010373
+time: 42    1.027201
+time: 43    1.097574
+time: 44    1.104624
+time: 45    1.114980
+time: 46    1.146564
+time: 47    1.148917
+time: 48    1.181992
+time: 49    1.213513
+time: 50    1.227023
+time: 51    1.303789
+time: 52    1.319580
+time: 53    1.286316
+time: 54    1.361643
+time: 55    1.394934
+time: 56    1.419363
+time: 57    1.290761
+time: 58    1.562100
+time: 59    1.488920
+time: 60    1.512830
+time: 61    1.480648
+time: 62    1.618042
+time: 63    1.480402
+time: 64    1.602730
+time: 65    1.717795
+time: 66    1.591124
+time: 67    1.697268
+time: 68    1.618301
+time: 69    1.689937
+time: 70    1.762188
+time: 71    1.811385
+time: 72    1.801293
+time: 73    1.793372
+time: 74    1.876238
+time: 75    1.841398
+time: 76    1.882952
+time: 77    1.889128
+time: 78    1.940020
+time: 79    1.978750
+time: 80    1.978984
+time: 81    2.046694
+time: 82    1.986735
+time: 83    2.061085
+time: 84    2.081601
+time: 85    2.119041
+time: 86    2.163127
+time: 87    2.102215
+time: 88    2.177952
+time: 89    2.253299
+time: 90    2.214224
+time: 91    2.222438
+time: 92    2.335485
+time: 93    2.332612
+time: 94    2.356228
+time: 95    2.348985
+time: 96    2.385038
+time: 97    2.427774
+time: 98    2.411360
+time: 99    2.447189
+time: 100    2.547635
+time: 101    2.505802
+time: 102    2.575771
+time: 103    2.547601
+time: 104    2.549665
+time: 105    2.616236
+time: 106    2.622806
+time: 107    2.645906
+time: 108    2.651511
+time: 109    2.798869
+time: 110    2.680902
+time: 111    2.753767
+time: 112    2.826058
+time: 113    2.827825
+time: 114    2.835947
+time: 115    2.844758
+time: 116    2.864441
+time: 117    2.928015
+time: 118    3.017658
+time: 119    2.910397
+time: 120    2.935888
+time: 121    3.084476
+time: 122    2.955913
+time: 123    3.095393
+time: 124    3.121724
+time: 125    3.078341
+time: 126    3.080066
+time: 127    3.205861
+time: 128    3.203478
+time: 129    3.236200
+time: 130    3.263337
+time: 131    3.212726
+time: 132    3.250757
+time: 133    3.394867
+time: 134    3.285305
+time: 135    3.310382
+time: 136    3.407526
+time: 137    3.397165
+time: 138    3.451185
+time: 139    3.478351
+time: 140    3.471559
+time: 141    3.441457
+time: 142    3.608832
+time: 143    3.617300
+time: 144    3.552094
+time: 145    3.593054
+time: 146    3.665882
+time: 147    3.661371
+time: 148    3.777110
+time: 149    3.696630
+time: 150    3.732791
+time: 151    3.762795
+time: 152    3.819092
+time: 153    3.823004
+time: 154    3.772170
+time: 155    3.904695
+time: 156    3.871551
+time: 157    3.887472
+time: 158    3.898178
+time: 159    4.023922
+time: 160    3.960196
+time: 161    4.027408
+time: 162    3.998913
+time: 163    4.096850
+time: 164    4.058100
+time: 165    4.107900
+time: 166    4.080626
+time: 167    4.182701
+time: 168    4.203135
+time: 169    4.126142
+time: 170    4.241226
+time: 171    4.246550
+time: 172    4.261289
+time: 173    4.351369
+time: 174    4.318250
+time: 175    4.399499
+time: 176    4.303754
+time: 177    4.416877
+time: 178    4.406881
+time: 179    4.572639
+time: 180    4.499619
+time: 181    4.512029
+time: 182    4.479854
+time: 183    4.573301
+time: 184    4.506489
+time: 185    4.638084
+time: 186    4.619651
+time: 187    4.688830
+time: 188    4.709887
+time: 189    4.672230
+time: 190    4.740231
+time: 191    4.744534
+time: 192    4.772849
+time: 193    4.759859
+time: 194    4.920050
+time: 195    4.764495
+time: 196    4.905733
+time: 197    4.925292
+time: 198    4.918461
+time: 199    4.956686
+time: 200    4.930991
+time: 201    5.030806
+time: 202    5.028036
+time: 203    5.009270
+time: 204    5.088022
+time: 205    5.093993
+time: 206    5.093210
+time: 207    5.166268
+time: 208    5.159694
+time: 209    5.203925
+time: 210    5.235719
+time: 211    5.276200
+time: 212    5.269647
+time: 213    5.300173
+time: 214    5.340356
+time: 215    5.344867
+time: 216    5.322294
+time: 217    5.459564
+time: 218    5.436394
+time: 219    5.418256
+time: 220    5.486874
+time: 221    5.492975
+time: 222    5.491601
+time: 223    5.611168
+time: 224    5.569167
+time: 225    5.584186
+time: 226    5.655249
+time: 227    5.652059
+time: 228    5.678790
+time: 229    5.703931
+time: 230    5.732200
+time: 231    5.819186
+time: 232    5.701548
+time: 233    5.830849
+time: 234    5.829470
+time: 235    5.789927
+time: 236    5.957835
+time: 237    5.865653
+time: 238    5.937619
+time: 239    5.951694
+time: 240    5.982370
+time: 241    6.021164
+time: 242    5.960741
+time: 243    6.060927
+time: 244    6.047508
+time: 245    6.085757
+time: 246    6.191159
+time: 247    6.108911
+time: 248    6.202385
+time: 249    6.308244
+time: 250    6.233488
+time: 251    6.267537
+time: 252    6.198553
+time: 253    6.375314
+time: 254    6.318663
+time: 255    6.396705
+time: 256    6.315959
+time: 257    6.448483
+time: 258    6.394421
+time: 259    6.474077
+time: 260    6.491539
+time: 261    6.440170
+time: 262    6.524834
+time: 263    6.561454
+time: 264    6.549308
+time: 265    6.670148
+time: 266    6.601739
+time: 267    6.574579
+time: 268    6.661799
+time: 269    6.660471
+time: 270    6.800937
+time: 271    6.731642
+time: 272    6.752412
+time: 273    6.833128
+time: 274    6.813698
+time: 275    6.768949
+time: 276    6.874985
+time: 277    6.949412
+time: 278    6.915040
+time: 279    6.976739
+time: 280    7.043268
+time: 281    7.064583
+time: 282    6.976556
+time: 283    7.038007
+time: 284    7.055131
+time: 285    7.083845
+time: 286    7.059496
+time: 287    7.207281
+time: 288    7.149426
+time: 289    7.154605
+time: 290    7.245108
+time: 291    7.244415
+time: 292    7.249259
+time: 293    7.348637
+time: 294    7.297001
+time: 295    7.301556
+time: 296    7.425808
+time: 297    7.379103
+time: 298    7.423437
+time: 299    7.453715
+time: 300    7.462794
+time: 301    7.589550
+time: 302    7.494466
+time: 303    7.639642
+time: 304    7.600530
+time: 305    7.715552
+time: 306    7.674818
+time: 307    7.645166
+time: 308    7.749660
+time: 309    7.643831
+time: 310    7.826807
+time: 311    7.773346
+time: 312    7.838660
+time: 313    7.828335
+time: 314    7.850016
+time: 315    7.920293
+time: 316    7.889078
+time: 317    7.937219
+time: 318    7.901342
+time: 319    8.052604
+time: 320    7.995889
+time: 321    8.079342
+time: 322    8.143029
+time: 323    8.199348
+time: 324    8.110118
+time: 325    8.050460
+time: 326    8.139198
+time: 327    8.202699
+time: 328    8.147089
+time: 329    8.111537
+time: 330    8.204785
+time: 331    8.279155
+time: 332    8.286688
+time: 333    8.288583
+time: 334    8.363564
+time: 335    8.401563
+time: 336    8.427316
+time: 337    8.537959
+time: 338    8.465568
+time: 339    8.492074
+time: 340    8.503044
+time: 341    8.494140
+time: 342    8.516298
+time: 343    8.537960
+time: 344    8.864026
+time: 345    8.565738
+time: 346    8.660379
+time: 347    8.550250

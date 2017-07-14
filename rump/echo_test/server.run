@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "gdb -tui -ex 'target remote:1234' xenevent.run"
+
+rumprun -S  xen -dip -D 1234 -M 512 -N echo-server-rump \
+	-I xen0,xenif \
+	-W xen0,inet,static,10.0.2.132/24 \
+	./echo_server-rumprun.run
+
+
+#sudo /home/alex/rump/rumprun/rumprun/bin/rumprun xen -di \
+#	-I xen0,xenif \
+#	-W xen0,inet,dhcp \
+#	./echo_server-rumprun.run
