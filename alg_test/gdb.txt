@@ -1,0 +1,26 @@
+The target architecture is assumed to be i386:x86-64
+Starting program:  round_robin
+No executable file specified.
+Use the "file" or "exec-file" command.
+No symbol table is loaded.  Use the "file" command.
+The target architecture is assumed to be i386:x86-64
+You can't do that when your target is `None'
+The target architecture is assumed to be i386:x86-64
+Reading symbols from round_robin...(no debugging symbols found)...done.
+Breakpoint 1 at 0x40056b
+Temporary breakpoint 2 at 0x40056b
+Starting program: /home/alex/workspace/sandbox/alg_test/round_robin 
+
+Breakpoint 1, 0x000000000040056b in main ()
+The target architecture is assumed to be i386:x86-64
+Reading symbols from round_robin...(no debugging symbols found)...done.
+The target architecture is assumed to be i386:x86-64
+Reading symbols from round_robin...(no debugging symbols found)...done.
+The target architecture is assumed to be i386:x86-64
+Reading symbols from round_robin...(no debugging symbols found)...done.
+Reading symbols from round_robin...done.
+Temporary breakpoint 1 at 0x40056f: file round_robin.c, line 18.
+Starting program: /home/alex/workspace/sandbox/alg_test/round_robin 
+
+Temporary breakpoint 1, main () at round_robin.c:18
+18	    for( int i = 0; i < ( ARRAY_SIZE * 12 );  i++ )
