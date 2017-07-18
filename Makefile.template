@@ -1,7 +1,7 @@
 C=gcc
 CFLAGS=-I.
 DEPS = 
-PROG = round_robin
+PROG = #INSERT PROG NAME
 
 
 $(PROG): $(PROG).c
