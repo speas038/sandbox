@@ -1,0 +1,203 @@
+  File "gdb-test.py", line 21
+    print "Usage: wzd_print_glist list objectype"
+                                                ^
+SyntaxError: Missing parentheses in call to 'print'
+  File "gdb-test.py", line 21
+    print "Usage: wzd_print_glist list objectype"
+                                                ^
+SyntaxError: Missing parentheses in call to 'print'
+  File "gdb-test.py", line 28
+    return
+         ^
+SyntaxError: invalid syntax
+Starting program:  gdb-test
+No executable file specified.
+Use the "file" or "exec-file" command.
+Undefined command: "ls".  Try "help".
+Source directories searched: $cdir:$cwd
+Starting program:  gdb-test
+No executable file specified.
+Use the "file" or "exec-file" command.
+Reading symbols from gdb-test...(no debugging symbols found)...done.
+Starting program:  gdb-test
+No executable file specified.
+Use the "file" or "exec-file" command.
+Reading symbols from gdb-test...done.
+Starting program: /home/alex/workspace/gdb-python-tutorial/gdb-test gdb-test
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Inferior 1 (process 14890) exited normally]
+Breakpoint 1 at 0x40074e: file gdb-test.c, line 5.
+Starting program: /home/alex/workspace/gdb-python-tutorial/gdb-test gdb-test
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at gdb-test.c:5
+5	{
+Undefined command: "wzd_print_glist".  Try "help".
+Undefined command: "wzd_print_glist".  Try "help".
+print( "Glib Glist: wsd_print_glist list objecttpe" )
+
+Iterate through the list if nodes in a Glist and display
+a human-readable form of the objects.
+
+List of wzd_print_glist subcommands:
+
+
+Type "help wzd_print_glist" followed by wzd_print_glist subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Command name abbreviations are allowed if unambiguous.
+Usage: wzd_print_glist list objectype
+Usage: wzd_print_glist list objectype
+Python Exception <class 'gdb.error'> Attempt to use a type name as an expression: 
+Error occurred in Python command: Attempt to use a type name as an expression
+Glib Glist: wsd_print_glist list objecttpe
+
+    Iterate through the list if nodes in a Glist and display
+    a human-readable form of the objects.
+
+List of wzd_print_glist subcommands:
+
+
+Type "help wzd_print_glist" followed by wzd_print_glist subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Command name abbreviations are allowed if unambiguous.
+
+    
+    Glib Glist: wsd_print_glist list objecttpe
+
+    Iterate through the list if nodes in a Glist and display
+    a human-readable form of the objects.
+    
+    
+
+List of wzd_print_glist subcommands:
+
+
+Type "help wzd_print_glist" followed by wzd_print_glist subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Command name abbreviations are allowed if unambiguous.
+one is not a Glist*
+Python Exception <class 'AttributeError'> 'PrintGList' object has no attribute '_print_node': 
+Error occurred in Python command: 'PrintGList' object has no attribute '_print_node'
+Python Exception <class 'NameError'> name 't' is not defined: 
+Error occurred in Python command: name 't' is not defined
+  File "gdb-test.py", line 36
+    except RuntimeError, e:
+                       ^
+SyntaxError: invalid syntax
+  File "gdb-test.py", line 36
+    except RuntimeError e:
+                        ^
+SyntaxError: invalid syntax
+Node at 0x400650 <_start> (prev: 0xc74800400830c0c7, next 0x495450f0e48348e2)
+Python Exception <class 'gdb.MemoryError'> Cannot access memory at address 0x89485ed18949ed31: 
+Error occurred in Python command: Cannot access memory at address 0x89485ed18949ed31
+1	#include <glib.h>
+2	#include <stdio.h>
+3	
+4	int main()
+5	{
+6	
+7	  int one = 1;
+8	  int two = 2;
+9	  
+10	  GList *list = NULL;
+7	  int one = 1;
+8	  int two = 2;
+10	  GList *list = NULL;
+11	  GList *res = NULL;
+13	  res = g_list_append( list, &two );
+17	  printf( "HELLO\n" );
+type GList* not found
+18	  return 0;
+Node at 0x607a00 (prev: 0x0, next 0x0)
+{data = 0x100000002, next = 0x0, prev = 0x607a00}
+Node at 0x607a00 (prev: 0x0, next 0x0)
+0x7fffffffd3b0
+{data = 0x100000002, next = 0x0, prev = 0x607a00}
+Node at 0x607a00 (prev: 0x0, next 0x0)
+0x7fffffffd3b0
+{data = 0x100000002, next = 0x0, prev = 0x607a00}
+Node at 0x607a00 (prev: 0x0, next 0x0)
+0x7fffffffd3b0
+2
+Node at 0x607a00 (prev: 0x0, next 0x0)
+2
+Node at 0x607a00 (prev: 0x0, next 0x0)
+2
+Node at 0x607a00 (prev: 0x0, next 0x0)
+2
+
+    
+    Glib Glist: wsd_print_glist list objecttpe
+
+    Iterate through the list if nodes in a Glist and display
+    a human-readable form of the objects.
+    
+    
+
+List of wzd_print_glist subcommands:
+
+
+Type "help wzd_print_glist" followed by wzd_print_glist subcommand name for full documentation.
+Type "apropos word" to search for commands related to "word".
+Command name abbreviations are allowed if unambiguous.
+Node at 0x607a00 (prev: 0x0, next 0x0)
+2
+Reading symbols from gdb-test...done.
+Breakpoint 1 at 0x40074e: file gdb-test.c, line 5.
+Starting program: /home/alex/workspace/gdb-python-tutorial/gdb-test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at gdb-test.c:5
+5	{
+7	  int one = 1;
+8	  int two = 2;
+10	  GList *list = NULL;
+11	  GList *res = NULL;
+13	  res = g_list_append( list, &two );
+14	  res = g_list_append( res, &one );
+17	  printf( "HELLO\n" );
+Node at 0x607a00 (prev: 0x0, next 0x607a20)
+2
+Node at 0x607a20 (prev: 0x607a00, next 0x0)
+1
+  File "gdb-test.py", line 50
+    print( "Value: " data )
+                        ^
+SyntaxError: invalid syntax
+Reading symbols from gdb-test...done.
+Breakpoint 1 at 0x40074e: file gdb-test.c, line 5.
+Starting program: /home/alex/workspace/gdb-python-tutorial/gdb-test 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at gdb-test.c:5
+5	{
+7	  int one = 1;
+8	  int two = 2;
+10	  GList *list = NULL;
+11	  GList *res = NULL;
+13	  res = g_list_append( list, &two );
+14	  res = g_list_append( res, &one );
+17	  printf( "HELLO\n" );
+Node at 0x607a00 (prev: 0x0, next 0x607a20)
+Value:  2
+Node at 0x607a20 (prev: 0x607a00, next 0x0)
+Value:  1
+Node at 0x607a00 (prev: 0x0, next 0x607a20)
+Value:  2 '\002'
+Node at 0x607a20 (prev: 0x607a00, next 0x0)
+Value:  1 '\001'
+type bool not found
+Python Exception <class 'UnboundLocalError'> local variable 't' referenced before assignment: 
+Error occurred in Python command: local variable 't' referenced before assignment
+Error detected on fd 0
+error detected on stdin
+Exception ignored in: <module 'threading' from '/usr/lib/python3.5/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 1273, in _shutdown
+    def _shutdown():
+KeyboardInterrupt
