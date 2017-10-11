@@ -1,0 +1,2765 @@
+Reading symbols from test-rumprun...done.
+:1234: Connection timed out.
+The program is not being run.
+Reading symbols from test-rumprun...done.
+:1234: Connection refused.
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b03: file test.c, line 230.
+Continuing.
+
+Breakpoint 1, main () at test.c:230
+sysctl_kern_maxproc () at test.c:216
+$1 = 0
+$2 = 4
+$3 = 0
+$4 = {1, 6}
+No symbol "KERN_MAXPROC" in current context.
+$5 = 0
+$6 = 4
+$7 = 0
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Continuing.
+Warning:
+Cannot insert breakpoint 1.
+Cannot access memory at address 0x17b03
+
+Command aborted.
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b03: file test.c, line 230.
+Single stepping until exit from function _text,
+which has no line number information.
+_minios_start_kernel (si=0x0 <_text>) at kernel.c:117
+Continuing.
+warning: Source file is more recent than executable.
+
+Breakpoint 1, main () at test.c:230
+No symbol "p" in current context.
+No symbol "p" in current context.
+No symbol "p" in current context.
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b03: file test.c, line 230.
+Continuing.
+warning: Source file is more recent than executable.
+
+Breakpoint 1, main () at test.c:230
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17ba1: file test.c, line 248.
+Continuing.
+warning: Source file is more recent than executable.
+
+Breakpoint 1, main () at test.c:248
+test_path_stuff () at test.c:231
+$1 = 88
+$2 = {8, 1}
+$3 = 0x278b610 "/usr/bin:/bin:/usr/sbin:/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin"
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17ba1: file test.c, line 249.
+Continuing.
+
+Breakpoint 1, main () at test.c:249
+test_path_stuff () at test.c:232
+$1 = 0x278b610 "/usr/bin:/bin:/usr/sbin:/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin"
+The target architecture is assumed to be i386:x64-32
+$2 = 0x278b610 "/usr/bin:/bin:/usr/sbin:/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin"
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x000023aa in _minios_hypercall_page ()
+localhost:1234: Connection refused.
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17ba1: file test.c, line 249.
+Continuing.
+
+Breakpoint 1, main () at test.c:249
+test_kern_maxproc () at test.c:217
+$1 = 0
+$2 = 4
+$3 = 0
+$4 = {1, 6}
+main () at test.c:255
+test_path_stuff () at test.c:232
+$5 = 0x278b610 "/usr/bin:/bin:/usr/sbin:/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin"
+$6 = 0x278b610 "/usr/bin:/bin:/usr/sbin:/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin"
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b94: file test.c, line 251.
+Continuing.
+
+Breakpoint 1, main () at test.c:251
+test_path_stuff () at test.c:232
+$1 = 88
+$2 = 88
+$3 = 0x278b610 "/usr/bin:/bin:/usr/sbin:/sbin:/usr/pkg/bin:/usr/pkg/sbin:/usr/local/bin:/usr/local/sbin"
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b94: file test.c, line 251.
+Continuing.
+
+Breakpoint 1, main () at test.c:251
+test_path_stuff () at test.c:232
+$1 = 57395
+$2 = 0x2b90010 "@\253\062"
+$3 = 0x2b90010
+$4 = 45678608
+$5 = 57395
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b94: file test.c, line 251.
+Continuing.
+
+Breakpoint 1, main () at test.c:251
+test_path_stuff () at test.c:232
+$1 = 57395
+$2 = (int *) 0x2b90010
+$3 = 3320640
+Reading symbols from test-rumprun...done.
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17b94: file test.c, line 251.
+Continuing.
+
+Breakpoint 1, main () at test.c:251
+test_path_stuff () at test.c:232
+$1 = 3320640
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17ba4: file test.c, line 251.
+Continuing.
+
+Breakpoint 1, main () at test.c:251
+test_path_stuff () at test.c:232
+$1 = 0
+$2 = -268370093
+$3 = 0
+$4 = (int *) 0x222ffd0
+$5 = 0
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17bbe: file test.c, line 256.
+Continuing.
+
+Breakpoint 1, main () at test.c:256
+test_path_stuff () at test.c:232
+$1 = -1
+$2 = 0
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17c91: file test.c, line 283.
+Continuing.
+
+Breakpoint 1, main () at test.c:283
+test_read_from_proc_fs () at test.c:255
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17d40: file test.c, line 302.
+Continuing.
+
+Breakpoint 1, main () at test.c:302
+query_sysctl () at test.c:274
+$1 = {sysctl_flags = 16777216, sysctl_num = 0, sysctl_name = '\000' <repeats 31 times>, sysctl_ver = 0, 
+  __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, 
+        __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, 
+        __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+          __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+  _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {__sysc_upad = 0, 
+    __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 0, __sysc_ustr = {
+      __sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+      __sysc_sdatum = 0x0 <_text>}}}
+No symbol "vs" in current context.
+$2 = {{sysctl_flags = 16777217, sysctl_num = 0, sysctl_name = "generic", '\000' <repeats 24 times>, 
+    sysctl_ver = 129, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 3, _suc_child = {
+          __sysc_upad = 38065160, __sysc_ustr = {__sysc_sdatum = 0x244d408}}}, scu_data = {_sud_data = {
+          __sysc_upad = 12884901896, __sysc_ustr = {__sysc_sdatum = 0x300000008}}, _sud_offset = {
+          __sysc_upad = 38065160, __sysc_ustr = {__sysc_sdatum = 38065160}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 12884901896, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 1, 
+    sysctl_name = "ffs", '\000' <repeats 28 times>, sysctl_ver = 144, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 8, suc_clen = 5, _suc_child = {__sysc_upad = 38169608, __sysc_ustr = {
+            __sysc_sdatum = 0x2466c08}}}, scu_data = {_sud_data = {__sysc_upad = 21474836488, 
+          __sysc_ustr = {__sysc_sdatum = 0x500000008}}, _sud_offset = {__sysc_upad = 38169608, 
+          __sysc_ustr = {__sysc_sdatum = 38169608}}}, scu_alias = 8, scu_idata = 8, 
+      scu_qdata = 21474836488, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 16777217, __sysc_ustr = {
+        __sysc_sdatum = 16777217}}, _sysctl_func = {__sysc_upad = 27981962743276903, __sysc_ustr = {
+__sysQuit
+$3 = {{sysctl_flags = 16777217, sysctl_num = 0, sysctl_name = "generic", '\000' <repeats 24 times>, 
+    sysctl_ver = 129, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 3, _suc_child = {
+          __sysc_upad = 38065160, __sysc_ustr = {__sysc_sdatum = 0x244d408}}}, scu_data = {_sud_data = {
+          __sysc_upad = 12884901896, __sysc_ustr = {__sysc_sdatum = 0x300000008}}, _sud_offset = {
+          __sysc_upad = 38065160, __sysc_ustr = {__sysc_sdatum = 38065160}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 12884901896, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 1, 
+    sysctl_name = "ffs", '\000' <repeats 28 times>, sysctl_ver = 144, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 8, suc_clen = 5, _suc_child = {__sysc_upad = 38169608, __sysc_ustr = {
+            __sysc_sdatum = 0x2466c08}}}, scu_data = {_sud_data = {__sysc_upad = 21474836488, 
+          __sysc_ustr = {__sysc_sdatum = 0x500000008}}, _sud_offset = {__sysc_upad = 38169608, 
+          __sysc_ustr = {__sysc_sdatum = 38169608}}}, scu_alias = 8, scu_idata = 8, 
+      scu_qdata = 21474836488, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 16777217, __sysc_ustr = {
+        __sysc_sdatum = 16777217}}, _sysctl_func = {__sysc_upad = 27981962743276903, __sysc_ustr = {
+__sysQuit
+$4 = 864
+$5 = "generic", '\000' <repeats 24 times>
+$6 = "ffs", '\000' <repeats 28 times>
+$7 = "kernfs", '\000' <repeats 25 times>
+$8 = "cd9660", '\000' <repeats 25 times>
+$9 = "ext2fs", '\000' <repeats 25 times>
+$10 = {{sysctl_flags = 16777217, sysctl_num = 0, sysctl_name = "generic", '\000' <repeats 24 times>, 
+    sysctl_ver = 129, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 3, _suc_child = {
+          __sysc_upad = 38065160, __sysc_ustr = {__sysc_sdatum = 0x244d408}}}, scu_data = {_sud_data = {
+          __sysc_upad = 12884901896, __sysc_ustr = {__sysc_sdatum = 0x300000008}}, _sud_offset = {
+          __sysc_upad = 38065160, __sysc_ustr = {__sysc_sdatum = 38065160}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 12884901896, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 1, 
+    sysctl_name = "ffs", '\000' <repeats 28 times>, sysctl_ver = 144, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 8, suc_clen = 5, _suc_child = {__sysc_upad = 38169608, __sysc_ustr = {
+            __sysc_sdatum = 0x2466c08}}}, scu_data = {_sud_data = {__sysc_upad = 21474836488, 
+          __sysc_ustr = {__sysc_sdatum = 0x500000008}}, _sud_offset = {__sysc_upad = 38169608, 
+          __sysc_ustr = {__sysc_sdatum = 38169608}}}, scu_alias = 8, scu_idata = 8, 
+      scu_qdata = 21474836488, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 16777217, __sysc_ustr = {
+        __sysc_sdatum = 16777217}}, _sysctl_func = {__sysc_upad = 27981962743276903, __sysc_ustr = {
+        __sysc_sdatum = 0x636972656e6567}}, _sysctl_parent = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 11, 
+    sysctl_name = "kernfs", '\000' <repeats 25 times>, sysctl_ver = 148, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {
+      __sysc_upad = 36575432, __sysc_ustr = {__sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, 
+    sysctl_num = 14, sysctl_name = "cd9660", '\000' <repeats 25 times>, sysctl_ver = 146, __rsvd = 0, 
+    sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 1, _suc_child = {__sysc_upad = 38168584, 
+          __sysc_ustr = {__sysc_sdatum = 0x2466808}}}, scu_data = {_sud_data = {
+          __sysc_upad = 4294967304, __sysc_ustr = {__sysc_sdatum = 0x100000008}}, _sud_offset = {
+          __sysc_upad = 38168584, __sysc_ustr = {__sysc_sdatum = 38168584}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 4294967304, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 17, 
+    sysctl_name = "ext2fs", '\000' <repeats 25 times>, sysctl_ver = 147, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {
+      __sysc_upad = 36575432, __sysc_ustr = {__sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777729, 
+    sysctl_num = 1049, sysctl_name = "sync", '\000' <repeats 27 times>, sysctl_ver = 125, __rsvd = 0, 
+    sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 4, _suc_child = {__sysc_upad = 38064136, 
+          __sysc_ustr = {__sysc_sdatum = 0x244d008}}}, scu_data = {_sud_data = {
+          __sysc_upad = 17179869192, __sysc_ustr = {__sysc_sdatum = 0x400000008}}, _sud_offset = {
+          __sysc_upad = 38064136, __sysc_ustr = {__sysc_sdatum = 38064136}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 17179869192, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777221, sysctl_num = 1054, 
+    sysctl_name = "namecache_stats", '\000' <repeats 16 times>, sysctl_ver = 126, __rsvd = 0, 
+    sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {
+      __sysc_upad = 296304, __sysc_ustr = {__sysc_sdatum = 0x48570 <cache_stat_sysctl>}}, 
+    _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {__sysc_sdatum = 0x22e18c8}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777217, sysctl_num = 1058, sysctl_name = "wapbl", '\000' <repeats 26 times>, 
+    sysctl_ver = 132, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 2, _suc_child = {
+          __sysc_upad = 38127624, __sysc_ustr = {__sysc_sdatum = 0x245c808}}}, scu_data = {_sud_data = {
+          __sysc_upad = 8589934600, __sysc_ustr = {__sysc_sdatum = 0x200000008}}, _sud_offset = {
+          __sysc_upad = 38127624, __sysc_ustr = {__sysc_sdatum = 38127624}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 8589934600, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 1061, 
+    sysctl_name = "ufs", '\000' <repeats 28 times>, sysctl_ver = 138, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 8, suc_clen = 1, _suc_child = {__sysc_upad = 38126600, __sysc_ustr = {
+            __sysc_sdatum = 0x245c408}}}, scu_data = {_sud_data = {__sysc_upad = 4294967304, 
+          __sysc_ustr = {__sysc_sdatum = 0x100000008}}, _sud_offset = {__sysc_upad = 38126600, 
+          __sysc_ustr = {__sysc_sdatum = 38126600}}}, scu_alias = 8, scu_idata = 8, 
+      scu_qdata = 4294967304, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {
+        __sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575432, __sysc_ustr = {
+        __sysc_sdatum = 0x22e18c8}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 0, sysctl_num = 0, 
+    sysctl_name = '\000' <repeats 31 times>, sysctl_ver = 0, __rsvd = 0, sysctl_un = {scu_child = {
+        suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 0, 
+      __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}} <repeats 69 times>, {sysctl_flags = 0, sysctl_num = 0, 
+    sysctl_name = '\000' <repeats 31 times>, sysctl_ver = 0, __rsvd = 0, sysctl_un = {scu_child = {
+        suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 0, 
+      __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 1855478, 
+      __sysc_ustr = {__sysc_sdatum = 0x1c4ff6 <__sfvwrite+726> ")]\fH\001]"}}}, {
+    sysctl_flags = 46399088, sysctl_num = 0, sysctl_name = '\000' <repeats 31 times>, 
+    sysctl_ver = 46399088, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 46401440, suc_clen = 0, 
+        _suc_child = {__sysc_upad = 14, __sysc_ustr = {__sysc_sdatum = 0xe <_text+14>}}}, scu_data = {
+        _sud_data = {__sysc_upad = 46401440, __sysc_ustr = {__sysc_sdatum = 0x2c407a0}}, _sud_offset = {
+          __sysc_upad = 14, __sysc_ustr = {__sysc_sdatum = 14}}}, scu_alias = 46401440, 
+      scu_idata = 46401440, scu_qdata = 46401440, scu_bdata = 160}, _sysctl_size = {__sysc_upad = 14, 
+      __sysc_ustr = {__sysc_sdatum = 14}}, _sysctl_func = {__sysc_upad = 2184168, __sysc_ustr = {
+        __sysc_sdatum = 0x2153e8}}, _sysctl_parent = {__sysc_upad = 46401440, __sysc_ustr = {
+        __sysc_sdatum = 0x2c407a0}}, _sysctl_desc = {__sysc_upad = 1782091, __sysc_ustr = {
+        __sysc_sdatum = 0x1b314b <__sprint+59> "H\307C\020"}}}, {sysctl_flags = 0, sysctl_num = 0, 
+    sysctl_name = "\000\000\000\000\000\000\000\000\366S!\000\000\000\000\000\221f\033", '\000' <repeats 12 times>, sysctl_ver = 4294967295, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 42, 
+        _suc_child = {__sysc_upad = 46401440, __sysc_ustr = {__sysc_sdatum = 0x2c407a0}}}, scu_data = {
+        _sud_data = {__sysc_upad = 180388626432, __sysc_ustr = {__sysc_sdatum = 0x2a00000000}}, 
+        _sud_offset = {__sysc_upad = 46401440, __sysc_ustr = {__sysc_sdatum = 46401440}}}, 
+      scu_alias = 0, scu_idata = 0, scu_qdata = 180388626432, scu_bdata = false}, _sysctl_size = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {__sysc_upad = 2, 
+      __sysc_ustr = {__sysc_sdatum = 0x2 <_text+2>}}, _sysctl_parent = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 46403232, sysctl_num = 0, 
+    sysctl_name = "\"\017#\002\000\000\000\000\330S!", '\000' <repeats 20 times>, sysctl_ver = 0, 
+    __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 2725696, suc_clen = 0, _suc_child = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 2725696, __sysc_ustr = {__sysc_sdatum = 0x299740 <_lc_global_locale>}}, 
+        _sud_offset = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 2725696, 
+      scu_idata = 2725696, scu_qdata = 2725696, scu_bdata = 64}, _sysctl_size = {
+      __sysc_upad = 18446744069414584348, __sysc_ustr = {__sysc_sdatum = 18446744069414584348}}, 
+    _sysctl_func = {__sysc_upad = 2161286, __sysc_ustr = {__sysc_sdatum = 0x20fa86}}, _sysctl_parent = {
+      __sysc_upad = 46400020, __sysc_ustr = {__sysc_sdatum = 0x2c40214}}, _sysctl_desc = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 46399894, 
+    sysctl_num = 0, sysctl_name = '\000' <repeats 31 times>, sysctl_ver = 0, __rsvd = 0, sysctl_un = {
+scuQuit
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17dd8: file test.c, line 307.
+Continuing.
+
+Breakpoint 1, main () at test.c:307
+query_sysctl () at test.c:274
+$1 = {{sysctl_flags = 16777731, sysctl_num = 1, sysctl_name = "ostype", '\000' <repeats 25 times>, 
+    sysctl_ver = 45, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 2011344, suc_clen = 0, 
+        _suc_child = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {
+        _sud_data = {__sysc_upad = 2011344, __sysc_ustr = {__sysc_sdatum = 0x1eb0d0 <rumpns_ostype>}}, 
+        _sud_offset = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 2011344, 
+      scu_idata = 2011344, scu_qdata = 2011344, scu_bdata = 208}, _sysctl_size = {__sysc_upad = 7, 
+      __sysc_ustr = {__sysc_sdatum = 7}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777731, sysctl_num = 2, 
+    sysctl_name = "osrelease", '\000' <repeats 22 times>, sysctl_ver = 46, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 2011336, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 2011336, 
+          __sysc_ustr = {__sysc_sdatum = 0x1eb0c8 <rumpns_osrelease>}}, _sud_offset = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 2011336, scu_idata = 2011336, 
+      scu_qdata = 2011336, scu_bdata = 200}, _sysctl_size = {__sysc_upad = 4311745027, __sysc_ustr = {
+        __sysc_sdatum = 4311745027}}, _sysctl_func = {__sysc_upad = 111533748417391, __sysc_ustr = {
+        __sysc_sdatum = 0x65707974736f}}, _sysctl_parent = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16779778, sysctl_num = 3, 
+    sysctl_name = "osrevision", '\000' <repeats 21 times>, sysctl_ver = 47, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 799003400, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 799003400, 
+          __sysc_ustr = {__sysc_sdatum = 0x2f9fd308}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 799003400, scu_idata = 799003400, scu_qdata = 799003400, 
+      scu_bdata = 8}, _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, 
+    _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {
+      __sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777731, 
+    sysctl_num = 4, sysctl_name = "version", '\000' <repeats 24 times>, sysctl_ver = 48, __rsvd = 0, 
+    sysctl_un = {scu_child = {suc_csize = 2011248, suc_clen = 0, _suc_child = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 2011248, __sysc_ustr = {__sysc_sdatum = 0x1eb070 <rumpns_version>}}, 
+        _sud_offset = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 2011248, 
+      scu_idata = 2011248, scu_qdata = 2011248, scu_bdata = 112}, _sysctl_size = {__sysc_upad = 29, 
+      __sysc_ustr = {__sysc_sdatum = 29}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777843, sysctl_num = 10, 
+    sysctl_name = "hostname", '\000' <repeats 23 times>, sysctl_ver = 49, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 4106112, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 4106112, 
+          __sysc_ustr = {__sysc_sdatum = 0x3ea780 <rumpns_hostname>}}, _sud_offset = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 4106112, scu_idata = 4106112, 
+      scu_qdata = 4106112, scu_bdata = 128}, _sysctl_size = {__sysc_upad = 256, __sysc_ustr = {
+        __sysc_sdatum = 256}}, _sysctl_func = {__sysc_upad = 1577008, __sysc_ustr = {
+        __sysc_sdatum = 0x181030 <sysctl_setlen>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777221, sysctl_num = 12, 
+    sysctl_name = "clockrate", '\000' <repeats 22 times>, sysctl_ver = 61, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 20, __sysc_ustr = {__sysc_sdatum = 20}}, _sysctl_func = {
+      __sysc_upad = 1659040, __sysc_ustr = {__sysc_sdatum = 0x1950a0 <sysctl_kern_clockrate>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777217, sysctl_num = 14, sysctl_name = "proc", '\000' <repeats 27 times>, 
+    sysctl_ver = 115, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, 
+      scu_qdata = 0, scu_bdata = false}, _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {
+        __sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 1612864, __sysc_ustr = {
+        __sysc_sdatum = 0x189c40 <sysctl_doeproc>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777221, sysctl_num = 15, 
+    sysctl_name = "file", '\000' <repeats 27 times>, sysctl_ver = 66, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {
+      __sysc_upad = 1640208, __sysc_ustr = {__sysc_sdatum = 0x190710 <sysctl_kern_file>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777843, sysctl_num = 22, sysctl_name = "domainname", '\000' <repeats 21 times>, 
+    sysctl_ver = 50, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 4106400, suc_clen = 0, 
+        _suc_child = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {
+        _sud_data = {__sysc_upad = 4106400, __sysc_ustr = {
+            __sysc_sdatum = 0x3ea8a0 <rumpns_domainname>}}, _sud_offset = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 4106400, scu_idata = 4106400, 
+      scu_qdata = 4106400, scu_bdata = 160}, _sysctl_size = {__sysc_upad = 256, __sysc_ustr = {
+        __sysc_sdatum = 256}}, _sysctl_func = {__sysc_upad = 1577008, __sysc_ustr = {
+        __sysc_sdatum = 0x181030 <sysctl_setlen>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16779778, sysctl_num = 24, 
+    sysctl_name = "rawpartition", '\000' <repeats 19 times>, sysctl_ver = 51, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 3, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 3, __sysc_ustr = {
+            __sysc_sdatum = 0x3 <_text+3>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 3, scu_idata = 3, scu_qdata = 3, scu_bdata = 3}, 
+    _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {
+      __sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777730, 
+    sysctl_num = 31, sysctl_name = "msgbufsize", '\000' <repeats 21 times>, sysctl_ver = 59, 
+    __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {
+      __sysc_upad = 1502672, __sysc_ustr = {__sysc_sdatum = 0x16edd0 <sysctl_msgbuf>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777217, sysctl_num = 39, sysctl_name = "mbuf", '\000' <repeats 27 times>, 
+    sysctl_ver = 160, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 6, _suc_child = {
+          __sysc_upad = 38167560, __sysc_ustr = {__sysc_sdatum = 0x2466408}}}, scu_data = {_sud_data = {
+          __sysc_upad = 25769803784, __sysc_ustr = {__sysc_sdatum = 0x600000008}}, _sud_offset = {
+          __sysc_upad = 38167560, __sysc_ustr = {__sysc_sdatum = 38167560}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 25769803784, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 47, 
+    sysctl_name = "proc2", '\000' <repeats 26 times>, sysctl_ver = 116, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {
+      __sysc_upad = 1612864, __sysc_ustr = {__sysc_sdatum = 0x189c40 <sysctl_doeproc>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777217, sysctl_num = 48, sysctl_name = "proc_args", '\000' <repeats 22 times>, 
+    sysctl_ver = 117, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, 
+      scu_qdata = 0, scu_bdata = false}, _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {
+        __sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 1608816, __sysc_ustr = {
+        __sysc_sdatum = 0x188c70 <sysctl_kern_proc_args>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777730, sysctl_num = 53, 
+    sysctl_name = "msgbuf", '\000' <repeats 25 times>, sysctl_ver = 60, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {
+      __sysc_upad = 1502672, __sysc_ustr = {__sysc_sdatum = 0x16edd0 <sysctl_msgbuf>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777729, sysctl_num = 56, sysctl_name = "pipe", '\000' <repeats 27 times>, 
+    sysctl_ver = 28, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 5, _suc_child = {
+          __sysc_upad = 36582408, __sysc_ustr = {__sysc_sdatum = 0x22e3408}}}, scu_data = {_sud_data = {
+          __sysc_upad = 21474836488, __sysc_ustr = {__sysc_sdatum = 0x500000008}}, _sud_offset = {
+          __sysc_upad = 36582408, __sysc_ustr = {__sysc_sdatum = 36582408}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 21474836488, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777330, sysctl_num = 58, 
+    sysctl_name = "sbmax", '\000' <repeats 26 times>, sysctl_ver = 162, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {
+      __sysc_upad = 434224, __sysc_ustr = {__sysc_sdatum = 0x6a030 <sysctl_kern_sbmax>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777218, sysctl_num = 61, sysctl_name = "urandom", '\000' <repeats 24 times>, 
+    sysctl_ver = 52, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, 
+      scu_qdata = 0, scu_bdata = false}, _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {
+        __sysc_sdatum = 4}}, _sysctl_func = {__sysc_upad = 1531600, __sysc_ustr = {
+        d <sysctl_kern_urnd>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777330, sysctl_num = 73, 
+    sysctl_name = "somaxkva", '\000' <repeats 23 times>, sysctl_ver = 161, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {
+      __sysc_upad = 433968, __sysc_ustr = {__sysc_sdatum = 0x69f30 <sysctl_kern_somaxkva>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777217, sysctl_num = 76, sysctl_name = "buf", '\000' <repeats 28 times>, 
+    sysctl_ver = 149, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, 
+      scu_qdata = 0, scu_bdata = false}, _sysctl_size = {__sysc_upad = 96, __sysc_ustr = {
+        __sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 301232, __sysc_ustr = {
+        __sysc_sdatum = 0x498b0 <sysctl_dobuf>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777221, sysctl_num = 77, 
+    sysctl_name = "file2", '\000' <repeats 26 times>, sysctl_ver = 67, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {
+      __sysc_upad = 1642416, __sysc_ustr = {__sysc_sdatum = 0x190fb0 <sysctl_kern_file2>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777218, sysctl_num = 80, 
+    sysctl_name = "hardclock_ticks", '\000' <repeats 16 times>, sysctl_ver = 62, __rsvd = 0, 
+    sysctl_un = {scu_child = {suc_csize = 4112916, suc_clen = 0, _suc_child = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 4112916, __sysc_ustr = {__sysc_sdatum = 0x3ec214 <rumpns_hardclock_ticks>}}, 
+        _sud_offset = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 4112916, 
+      scu_idata = 4112916, scu_qdata = 4112916, scu_bdata = 20}, _sysctl_size = {__sysc_upad = 4, 
+      __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777218, sysctl_num = 81, 
+    sysctl_name = "arandom", '\000' <repeats 24 times>, sysctl_ver = 53, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {__sysc_sdatum = 4}}, _sysctl_func = {
+      __sysc_upad = 1528464, __sysc_ustr = {__sysc_sdatum = 0x175290 <sysctl_kern_arnd>}}, 
+    _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, 
+    _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {
+    sysctl_flags = 16777733, sysctl_num = 84, sysctl_name = "evcnt", '\000' <repeats 26 times>, 
+    sysctl_ver = 30, __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {
+          __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, 
+      scu_qdata = 0, scu_bdata = false}, _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0}}, _sysctl_func = {__sysc_upad = 1520048, __sysc_ustr = {
+        __sysc_sdatum = 0x1731b0 <sysctl_doevcnt>}}, _sysctl_parent = {__sysc_upad = 36575240, 
+      __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777842, sysctl_num = 1032, 
+    sysctl_name = "direct_select", '\000' <repeats 18 times>, sysctl_ver = 22, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 2733440, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 2733440, 
+          __sysc_ustr = {__sysc_sdatum = 0x29b580 <direct_select>}}, _sud_offset = {__sysc_upad = 0, 
+          __sysc_ustr = {__sysc_sdatum = 0}}}, scu_alias = 2733440, scu_idata = 2733440, 
+      scu_qdata = 2733440, scu_bdata = 128}, _sysctl_size = {__sysc_upad = 4, __sysc_ustr = {
+        __sysc_sdatum = 4}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777733, sysctl_num = 1033, 
+    sysctl_name = "pool", '\000' <repeats 27 times>, sysctl_ver = 29, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+            __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+    _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {
+      __sysc_upad = 1485600, __sysc_ustr = {__sysc_sdatum = 0x16ab20 <pool_sysctl>}}, _sysctl_parent = {
+      __sysc_upad = 36575240, __sysc_ustr = {__sysc_sdatum = 0x22e1808}}, _sysctl_desc = {
+      __sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777729, 
+    sysctl_num = 1034, sysctl_name = "timecounter", '\000' <repeats 20 times>, sysctl_ver = 34, 
+    __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 8, suc_clen = 3, _suc_child = {
+          __sysc_upad = 36581384, __sysc_ustr = {__sysc_sdatum = 0x22e3008}}}, scu_data = {_sud_data = {
+          __sysc_upad = 12884901896, __sysc_ustr = {__sysc_sdatum = 0x300000008}}, _sud_offset = {
+          __sysc_upad = 36581384, __sysc_ustr = {__sysc_sdatum = 36581384}}}, scu_alias = 8, 
+      scu_idata = 8, scu_qdata = 12884901896, scu_bdata = 8}, _sysctl_size = {__sysc_upad = 96, 
+      __sysc_ustr = {__sysc_sdatum = 96}}, _sysctl_func = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 36575240, __sysc_ustr = {
+        __sysc_sdatum = 0x22e1808}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+        __sysc_sdatum = 0x0 <_text>}}}, {sysctl_flags = 16777217, sysctl_num = 1038, 
+    sysctl_name = "uidinfo", '\000' <repeats 24 times>, sysctl_ver = 58, __rsvd = 0, sysctl_un = {
+      scu_child = {suc_csize = 8, suc_clen = 4, _suc_child = {__sysc_upad = 36583432, __sysc_ustr = {
+__syQuit
+$2 = "osrelease", '\000' <repeats 22 times>
+$3 = "osrevision", '\000' <repeats 21 times>
+$4 = "version", '\000' <repeats 24 times>
+Breakpoint 2 at 0x17d6d: file test.c, line 290.
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$5 = "hostname", '\000' <repeats 23 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$6 = "clockrate", '\000' <repeats 22 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$7 = "proc", '\000' <repeats 27 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$8 = "file", '\000' <repeats 27 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$9 = "domainname", '\000' <repeats 21 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$10 = "rawpartition", '\000' <repeats 19 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$11 = "msgbufsize", '\000' <repeats 21 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$12 = "proc_args", '\000' <repeats 22 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$13 = "msgbuf", '\000' <repeats 25 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$14 = "pipe", '\000' <repeats 27 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$15 = "urandom", '\000' <repeats 24 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$16 = "somaxkva", '\000' <repeats 23 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$17 = "buf", '\000' <repeats 28 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$18 = "hardclock_ticks", '\000' <repeats 16 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$19 = "arandom", '\000' <repeats 24 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$20 = "evcnt", '\000' <repeats 26 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$21 = "direct_select", '\000' <repeats 18 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$22 = "pool", '\000' <repeats 27 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$23 = "timecounter", '\000' <repeats 20 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$24 = "uidinfo", '\000' <repeats 24 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$25 = "module", '\000' <repeats 25 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$26 = "detachall", '\000' <repeats 22 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$27 = "posix", '\000' <repeats 26 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$28 = '\000' <repeats 31 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+$29 = '\000' <repeats 31 times>
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+Continuing.
+
+Breakpoint 2, query_sysctl () at test.c:290
+Please answer y or n.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17dec: file test.c, line 311.
+Continuing.
+
+Breakpoint 1, main () at test.c:311
+query_sysctl () at test.c:274
+$1 = {sysctl_flags = 16777216, sysctl_num = 0, sysctl_name = '\000' <repeats 31 times>, sysctl_ver = 0, 
+  __rsvd = 0, sysctl_un = {scu_child = {suc_csize = 0, suc_clen = 0, _suc_child = {__sysc_upad = 0, 
+        __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}}, scu_data = {_sud_data = {__sysc_upad = 0, 
+        __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sud_offset = {__sysc_upad = 0, __sysc_ustr = {
+          __sysc_sdatum = 0}}}, scu_alias = 0, scu_idata = 0, scu_qdata = 0, scu_bdata = false}, 
+  _sysctl_size = {__sysc_upad = 0, __sysc_ustr = {__sysc_sdatum = 0}}, _sysctl_func = {__sysc_upad = 0, 
+    __sysc_ustr = {__sysc_sdatum = 0x0 <_text>}}, _sysctl_parent = {__sysc_upad = 0, __sysc_ustr = {
+      __sysc_sdatum = 0x0 <_text>}}, _sysctl_desc = {__sysc_upad = 0, __sysc_ustr = {
+      __sysc_sdatum = 0x0 <_text>}}}
+$2 = 96
+Undefined command: "sizeof".  Try "help".
+$3 = 96
+$4 = 96
+No symbol "sysctlnode" in current context.
+No symbol "sysctlnode" in current context.
+No symbol "sysctlnode" in current context.
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x148910: ksem_create. (3 locations)
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+No symbol "SEM_MAX_NAMELEN" in current context.
+Note: breakpoint 1 also set at pc 0x148b09.
+Note: breakpoint 1 also set at pc 0x148c58.
+Breakpoint 2 at 0x148b09: /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/kern/uipc_sem.c:313. (2 locations)
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+ksem_create (val=0, mode=0, ksret=0x2c40288, name=0x0 <_text>, l=0x27bc800)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:313
+$1 = 0
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+$2 = 0
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+$3 = 0
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c40350, docopyout=0x19e7f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, 
+    ksret=ksret@entry=0x2c40288, mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Continuing.
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+thread_func (arg=0x2c40f58) at test.c:36
+sem_wait (sem=0x2c40f68) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:260
+rump___sysimpl__ksem_wait (id=132)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c:2818
+Function "ksem_wait" not defined.
+Breakpoint 1 (ksem_wait) pending.
+$1 = {id = {pad = 132, le = {datum = 132}, be = {pad = 0x6e40f78 "\204", datum = 132}}}
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+thread_func (arg=0x2c3f890) at test.c:36
+sem_wait (sem=0x2c3f8a0) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:260
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+thread_func (arg=0x2c3f890) at test.c:36
+sem_wait (sem=0x2c3f8a0) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:260
+Breakpoint 1 at 0x19a3c0: file /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c, line 2818.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+thread_func (arg=0x2c3f890) at test.c:36
+sem_wait (sem=0x2c3f8a0) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:260
+$1 = (sem_t *) 0x2c3f8a0
+$2 = (sem_t) 0x0 <_text>
+$3 = -1152863187809323822
+#0  sem_wait (sem=0x2c3f8a0) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:260
+#1  0x00000000000176d1 in thread_func (arg=0x2c3f890) at test.c:36
+#2  0x00000000001acadd in pthread__create_tramp (cookie=0x9fd0010)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/pthread.c:576
+#3  0x0000000000014658 in bmk_cpu_sched_bouncer ()
+#4  0x0000000000000000 in ?? ()
+#1  0x00000000000176d1 in thread_func (arg=0x2c3f890) at test.c:36
+$4 = (thread_info *) 0x2c3f890
+$5 = {thread_id = 0x9fd0010, t_num = 256, sem = 0x0 <_text>}
+The target architecture is assumed to be i386:x86-64
+No symbol "sem" in current context.
+$6 = (thread_info *) 0x2c3f890
+$7 = {thread_id = 0x9fd0010, t_num = 256, sem = 0x0 <_text>}
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+$1 = {thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>}
+$2 = 255
+$3 = (sem_t) 0x0 <_text>
+$4 = (sem_t) 0x0 <_text>
+$5 = {ksem_magic = 4026597203, ksem_list = {le_next = 0xf00034d2f000e2c3, le_prev = 0xf000ff54f000ff53}, 
+  ksem_semid = -1152863187809323822, ksem_identity = 0xf000e987f000fea5}
+$6 = {{thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>} <repeats 500 times>}
+$7 = {{thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>} <repeats 500 times>}
+$8 = {thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>}
+$9 = {{thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>} <repeats 500 times>}
+$10 = {thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>}
+$11 = {thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>}
+$12 = {thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>}
+$13 = {thread_id = 0x0 <_text>, t_num = 0, sem = 0x0 <_text>}
+$14 = (sem_t) 0x0 <_text>
+./gdb.txt:1: Error in sourced command file:
+Undefined command: "Reading".  Try "help".
+The target architecture is assumed to be i386:x86-64
+$15 = (sem_t) 0x0 <_text>
+sem_init (sem=0x2c3f888, pshared=8, value=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:119
+$16 = 0
+$17 = 46391400
+rump___sysimpl__ksem_init (value=0, idp=idp@entry=0x2c3e050)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c:2673
+rump_syscall (num=num@entry=247, data=data@entry=0x2c3e030, dlen=dlen@entry=16, retval=retval@entry=0x2c3e020)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:745
+sy_invoke (code=<optimized out>, rval=<optimized out>, uap=<optimized out>, l=<optimized out>, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:75
+Undefined command: "ss".  Try "help".
+rump_syscall (num=num@entry=247, data=data@entry=0x2c3e030, dlen=dlen@entry=16, retval=retval@entry=0x2c3e020)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:758
+sy_invoke (code=247, rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=0x296de8 <rumpns_sysent+5928>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:75
+sy_call (rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=0x296de8 <rumpns_sysent+5928>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:65
+sys__ksem_init (l=0x27bc800, uap=0x2c3e030, retval=0x2c3e020)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:387
+do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:392
+fd_allocfile (resultfp=0x2c3df90, resultfd=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1083
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+rump_curlwp_fast ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_curlwp___thread.h:62
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+fd_allocfile (resultfp=0x2c3df90, resultfd=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1089
+fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:847
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+rump_curlwp_fast ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_curlwp___thread.h:62
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:859
+mutex_enter (mtx=0x2a02800) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/locks.c:145
+rumpuser_mutex_enter (mtx=0x2a0b550)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/libbmk_rumpuser/rumpuser_synch.c:147
+rumpuser_mutex_tryenter (mtx=mtx@entry=0x2a0b550)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/libbmk_rumpuser/rumpuser_synch.c:175
+rumpuser_mutex_enter (mtx=0x2a0b550)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/libbmk_rumpuser/rumpuser_synch.c:156
+fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:861
+min (b=<optimized out>, a=1772)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../lib/libkern/libkern.h:107
+fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:864
+fd_next_zero (fdp=fdp@entry=0x2a02680, bitmap=0x2a02900, want=want@entry=0, bits=bits@entry=1)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:224
+mutex_owned (mtx=0x2a02800) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/locks.c:183
+mutex_owner (mtx=0x2a02800) at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/locks.c:193
+rumpuser_mutex_owner (mtx=0x2a0b550, lp=lp@entry=0x2c3de98)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/libbmk_rumpuser/rumpuser_synch.c:211
+mutex_owner (mtx=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/locks.c:194
+mutex_owned (mtx=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/locks.c:185
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+rump_curlwp_fast ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_curlwp___thread.h:62
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+mutex_owned (mtx=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/locks.c:186
+fd_next_zero (fdp=fdp@entry=0x2a02680, bitmap=0x2a02900, want=want@entry=0, bits=bits@entry=1)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:232
+#0  fd_next_zero (fdp=fdp@entry=0x2a02680, bitmap=0x2a02900, want=want@entry=0, bits=bits@entry=1)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:235
+#1  0x000000000019253b in fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:869
+#2  0x00000000001937be in fd_allocfile (resultfp=0x2c3df90, resultfd=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1089
+#3  0x0000000000148aee in do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+#4  0x00000000001a33b4 in sy_call (rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:65
+#5  sy_invoke (code=247, rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:94
+#6  rump_syscall (num=num@entry=247, data=data@entry=0x2c3e030, dlen=dlen@entry=16, retval=retval@entry=0x2c3e020)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:760
+#7  0x000000000019a27e in rump___sysimpl__ksem_init (value=<optimized out>, idp=idp@entry=0x2c3e050)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c:2683
+#8  0x00000000001a95f3 in sem_init (sem=0x2c3f888, pshared=<optimized out>, value=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:123
+#9  0x0000000000017e8c in main () at test.c:327
+#10 0x00000000001a6e16 in mainbouncer (arg=0x2790810)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/librumprun_base/rumprun.c:195
+#11 0x00000000001acadd in pthread__create_tramp (cookie=0x2b82010)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/pthread.c:576
+#12 0x0000000000014658 in bmk_cpu_sched_bouncer ()
+#13 0x0000000000000000 in ?? ()
+#0  fd_next_zero (fdp=fdp@entry=0x2a02680, bitmap=0x2a02900, want=want@entry=0, bits=bits@entry=1)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:235
+#1  0x000000000019253b in fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:869
+#2  0x00000000001937be in fd_allocfile (resultfp=0x2c3df90, resultfd=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1089
+#3  0x0000000000148aee in do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+#4  0x00000000001a33b4 in sy_call (rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:65
+#5  sy_invoke (code=247, rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:94
+#6  rump_syscall (num=num@entry=247, data=data@entry=0x2c3e030, dlen=dlen@entry=16, retval=retval@entry=0x2c3e020)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:760
+#7  0x000000000019a27e in rump___sysimpl__ksem_init (value=<optimized out>, idp=idp@entry=0x2c3e050)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c:2683
+#8  0x00000000001a95f3 in sem_init (sem=0x2c3f888, pshared=<optimized out>, value=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:123
+#9  0x0000000000017e8c in main () at test.c:327
+#10 0x00000000001a6e16 in mainbouncer (arg=0x2790810)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/librumprun_base/rumprun.c:195
+#11 0x00000000001acadd in pthread__create_tramp (cookie=0x2b82010)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/pthread.c:576
+#12 0x0000000000014658 in bmk_cpu_sched_bouncer ()
+#13 0x0000000000000000 in ?? ()
+#3  0x0000000000148aee in do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+#0  fd_next_zero (fdp=fdp@entry=0x2a02680, bitmap=0x2a02900, want=want@entry=0, bits=bits@entry=1)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:244
+#1  0x000000000019253b in fd_alloc (p=p@entry=0x2a00a80, want=want@entry=0, result=result@entry=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:869
+#2  0x00000000001937be in fd_allocfile (resultfp=0x2c3df90, resultfd=0x2c3df84)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1089
+#3  0x0000000000148aee in do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+#4  0x00000000001a33b4 in sy_call (rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:65
+#5  sy_invoke (code=247, rval=0x2c3e020, uap=0x2c3e030, l=0x27bc800, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:94
+#6  rump_syscall (num=num@entry=247, data=data@entry=0x2c3e030, dlen=dlen@entry=16, retval=retval@entry=0x2c3e020)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:760
+#7  0x000000000019a27e in rump___sysimpl__ksem_init (value=<optimized out>, idp=idp@entry=0x2c3e050)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c:2683
+#8  0x00000000001a95f3 in sem_init (sem=0x2c3f888, pshared=<optimized out>, value=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:123
+#9  0x0000000000017e8c in main () at test.c:327
+#10 0x00000000001a6e16 in mainbouncer (arg=0x2790810)
+    at /home/alex/workspace/sandbox/rump/rumprun/lib/librumprun_base/rumprun.c:195
+#11 0x00000000001acadd in pthread__create_tramp (cookie=0x2b82010)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/pthread.c:576
+#12 0x0000000000014658 in bmk_cpu_sched_bouncer ()
+#13 0x0000000000000000 in ?? ()
+#3  0x0000000000148aee in do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+Breakpoint 1 at 0x148940: ksem_create. (3 locations)
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+ksem_create (val=0, mode=0, ksret=0x2c3df88, name=0x0 <_text>, l=0x27bc800)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:313
+$18 = 0
+$19 = 0
+$20 = 128
+$21 = 0
+$22 = 0
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, ksret=ksret@entry=0x2c3df88, 
+    mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+$23 = 0
+$24 = (lwp_t *) 0x27bc800
+$25 = {l_runq = {tqe_next = 0x0 <_text>, tqe_prev = 0x0 <_text>}, l_sched = {info = 0x0 <_text>, timeslice = 0}, 
+  l_cpu = 0x3ede40 <rump_bootcpu>, l_mutex = 0x22dbec0, l_ctxswtch = 0, l_addr = 0x0 <_text>, l_md = {
+    md_regs = 0x0 <_text>, md_gc_pmap = 0x0 <_text>, md_gc_ptp = 0x0 <_text>, md_flags = 0, md_astpending = 0}, 
+  l_flag = 0, l_stat = 7, l_rtime = {sec = 0, frac = 0}, l_stime = {sec = 0, frac = 0}, l_swtime = 0, l_rticks = 0, 
+  l_rticksum = 0, l_slpticks = 0, l_slpticksum = 0, l_biglocks = 0, l_class = 0, l_kpriority = 0, l_kpribase = 0, 
+  l_priority = 0, l_inheritedprio = 0, l_protectprio = 0, l_auxprio = 0, l_protectdepth = 0, l_pi_lenders = {
+    slh_first = 0x0 <_text>}, l_ncsw = 16, l_nivcsw = 0, l_cpticks = 0, l_pctcpu = 0, l_estcpu = 0, l_psid = 0, 
+  l_target_cpu = 0x3ede40 <rump_bootcpu>, l_lwpctl = 0x0 <_text>, l_lcpage = 0x0 <_text>, l_affinity = 0x0 <_text>, 
+  l_ts = 0x0 <_text>, l_syncobj = 0x0 <_text>, l_sleepchain = {tqe_next = 0x0 <_text>, tqe_prev = 0x0 <_text>}, 
+  l_wchan = 0x0 <_text>, l_wmesg = 0x0 <_text>, l_sleepq = 0x0 <_text>, l_sleeperr = 0, l_slptime = 0, l_timeout_ch = {
+    _c_store = {0x0 <_text>, 0x0 <_text>, 0x0 <_text>, 0x0 <_text>, 0x0 <_text>, 0x0 <_text>, 0x0 <_text>, 0x0 <_text>, 
+      0x0 <_text>, 0x0 <_text>}}, l_emap_gen = 0, l_waitcv = {cv_opaque = {0x0 <_text>, 0x0 <_text>, 0x0 <_text>}}, 
+  l_list = {le_next = 0x27ab000, le_prev = 0x2a031b0}, l_ctxlink = 0x0 <_text>, l_proc = 0x2a00a80, l_sibling = {
+    le_next = 0x0 <_text>, le_prev = 0x2a00b88}, l_waiter = 0, l_waitingfor = 0, l_prflag = 0, l_refcnt = 1, l_lid = 0, 
+  l_name = 0x0 <_text>, l_selflag = 0, l_selwait = {slh_first = 0x0 <_text>}, l_selret = 0, l_selrec = 0, 
+  l_selcluster = 0x0 <_text>, l_selbits = 0x0 <_text>, l_selni = 0, l_sigrestore = 0, l_sigwaitset = {__bits = {0, 0, 0, 
+      0}}, l_sigcv = {cv_opaque = {0x0 <_text>, 0x0 <_text>, 0x0 <_text>}}, l_sigwaited = 0x0 <_text>, 
+  l_sigpendset = 0x0 <_text>, l_sigwaiter = {le_next = 0x0 <_text>, le_prev = 0x0 <_text>}, l_sigstk = {
+    ss_sp = 0x0 <_text>, ss_size = 0, ss_flags = 0}, l_sigmask = {__bits = {0, 0, 0, 0}}, l_sigpend = {sp_info = {
+      tqh_first = 0x0 <_text>, tqh_last = 0x0 <_text>}, sp_set = {__bits = {0, 0, 0, 0}}}, l_sigoldmask = {__bits = {0, 
+      0, 0, 0}}, l_specdataref = {specdataref_container = 0x0 <_text>, specdataref_lock = {u = {
+        mtxa_owner = 44085712}}}, l_ktrcsw = {tv_sec = 0, tv_nsec = 0}, l_private = 0x0 <_text>, 
+  l_switchto = 0x0 <_text>, l_cred = 0x22ecf00, l_fd = 0x2a02680, l_emuldata = 0x0 <_text>, l_cv_signalled = 0, 
+  l_shlocks = 0, l_exlocks = 0, l_unused = 0, l_blcnt = 0, l_nopreempt = 0, l_dopreempt = 0, l_pflag = 536870912, 
+l_dupfd Quit
+The target architecture is assumed to be i386:x86-64
+$26 = (lwp_t *) 0x27bc800
+$27 = (lwp_t *) 0x27bc800
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, ksret=ksret@entry=0x2c3df88, 
+    mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, ksret=ksret@entry=0x2c3df88, 
+    mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+$28 = 255
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, ksret=ksret@entry=0x2c3df88, 
+    mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+$29 = 255
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, ksret=ksret@entry=0x2c3df88, 
+    mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Breakpoint 1, do_ksem_init (l=0x27bc800, val=0, idp=0x2c3e050, docopyout=0x19e820 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:415
+Continuing.
+
+Breakpoint 1, ksem_create (l=l@entry=0x27bc800, name=name@entry=0x0 <_text>, ksret=ksret@entry=0x2c3df88, 
+    mode=mode@entry=0, val=val@entry=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:305
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+$30 = 255
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+$31 = 255
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:327
+$32 = 255
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17e08: file test.c, line 304.
+Continuing.
+
+Breakpoint 1, main () at test.c:304
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:320
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:320
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:320
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:320
+$1 = 259
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:320
+Ambiguous command "o u": obscure, output, ov, overlay, ovly.
+
+KeyboardInterrupt
+
+KeyboardInterrupt
+(gdb) 
+KeyboardInterrupt
+
+$2 = 261
+$3 = 262
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+sem_init (sem=0x2c3f930, pshared=8, value=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:119
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:320
+sem_init (sem=0x2c3f948, pshared=8, value=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:119
+rax            0xffffffff	4294967295
+rbx            0x2790810	41486352
+rcx            0x2a0af00	44084992
+rdx            0x0	0
+rsi            0x27bc800	41666560
+rdi            0xffffffff	4294967295
+rbp            0x2c3f948	0x2c3f948
+rsp            0x2c3e050	0x2c3e050
+r8             0x0	0
+r9             0x20	32
+r10            0x103	259
+r11            0x0	0
+r12            0x222ee90	35843728
+r13            0x0	0
+r14            0x35b4c0	3519680
+r15            0x35b480	3519616
+rip            0x1a960b	0x1a960b <sem_init+75>
+eflags         0x246	[ PF ZF IF ]
+cs             0x0	0
+ss             0xe033	57395
+ds             0x0	0
+es             0xe02b	57387
+fs             0x0	0
+gs             0x0	0
+The target architecture is assumed to be i386:x86-64
+rax            0xffffffff	4294967295
+rbx            0x2790810	41486352
+rcx            0x2a0af00	44084992
+rdx            0x0	0
+rsi            0x27bc800	41666560
+rdi            0xffffffff	4294967295
+rbp            0x2c3f948	0x2c3f948
+rsp            0x2c3e050	0x2c3e050
+r8             0x0	0
+r9             0x20	32
+r10            0x103	259
+r11            0x0	0
+r12            0x222ee90	35843728
+r13            0x0	0
+r14            0x35b4c0	3519680
+r15            0x35b480	3519616
+rip            0x1a960b	0x1a960b <sem_init+75>
+eflags         0x246	[ PF ZF IF ]
+cs             0x0	0
+ss             0xe033	57395
+ds             0x0	0
+es             0xe02b	57387
+fs             0x0	0
+gs             0x0	0
+$4 = 4294967295
+No symbol "rax" in current context.
+$5 = 0xffffffff
+$6 = 4294967295
+Format letter "i" is meaningless in "print" command.
+No symbol "__errno_location" in current context.
+main () at test.c:329
+No symbol "__errno_location" in current context.
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17e33: file test.c, line 316.
+Continuing.
+
+Breakpoint 1, main () at test.c:316
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:335
+$1 = 1769
+sem_init (sem=0x2c2e0b0, pshared=8, value=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:119
+A syntax error in expression, near `%rax'.
+$2 = 4294967295
+$3 = 0xffffffff
+main () at test.c:338
+$4 = -1
+sem_init (sem=0x2c2e0c8, pshared=8, value=0)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/lib/libpthread/sem.c:119
+rump___sysimpl__ksem_init (value=0, idp=idp@entry=0x2c23a70)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump_syscalls.c:2673
+rump_syscall (num=num@entry=247, data=data@entry=0x2c23a50, dlen=dlen@entry=16, retval=retval@entry=0x2c23a40)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:745
+x86_curlwp ()
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../librump/rumpkern/arch/x86/rump_x86_cpu.c:71
+rump_syscall (num=num@entry=247, data=data@entry=0x2c23a50, dlen=dlen@entry=16, retval=retval@entry=0x2c23a40)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:758
+sy_invoke (code=<optimized out>, rval=<optimized out>, uap=<optimized out>, l=<optimized out>, sy=<optimized out>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:75
+rump_syscall (num=num@entry=247, data=data@entry=0x2c23a50, dlen=dlen@entry=16, retval=retval@entry=0x2c23a40)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/rump.c:758
+sy_invoke (code=247, rval=0x2c23a40, uap=0x2c23a50, l=0x27bb800, sy=0x295de8 <rumpns_sysent+5928>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:75
+sy_call (rval=0x2c23a40, uap=0x2c23a50, l=0x27bb800, sy=0x295de8 <rumpns_sysent+5928>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../sys/syscallvar.h:65
+sys__ksem_init (l=0x27bb800, uap=0x2c23a50, retval=0x2c23a40)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:381
+do_ksem_init (l=0x27bb800, val=0, idp=0x2c23a70, docopyout=0x19e6f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:392
+$5 = 24
+Breakpoint 2 at 0x1489fc: file /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c, line 399.
+Continuing.
+
+Breakpoint 2, do_ksem_init (l=0x27bb800, val=0, idp=0x2c23a70, docopyout=0x19e6f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+fd_allocfile (resultfp=0x2c239a0, resultfd=0x2c23994)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1083
+$6 = 24
+No symbol "ENOSPC" in current context.
+Continuing.
+
+Breakpoint 2, do_ksem_init (l=0x27bb800, val=0, idp=0x2c23a70, docopyout=0x19e6f0 <copyout>)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/uipc_sem.c:399
+fd_allocfile (resultfp=0x2c239a0, resultfd=0x2c23994)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:1083
+fd_alloc (p=p@entry=0x27bfa80, want=want@entry=0, result=result@entry=0x2c23994)
+    at /home/alex/workspace/sandbox/rump/rumprun/src-netbsd/sys/rump/librump/rumpkern/../../../kern/kern_descrip.c:847
+Missing ELF symbol "maxfiles".
+Missing ELF symbol "maxfiles".
+Reading symbols from test-rumprun...done.
+The target architecture is assumed to be i386:x86-64
+Remote debugging using :1234
+0x0000000000000000 in _text ()
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x0000000000000000 in _text ()
+Breakpoint 1 at 0x17e3b: file test.c, line 317.
+Continuing.
+
+Breakpoint 1, main () at test.c:317
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+main () at test.c:336
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00000000000023aa in _minios_hypercall_page ()
+Continuing.
+Warning:
+Cannot insert breakpoint 1.
+Cannot access memory at address 0x17e3b
+
+Command aborted.
+Continuing.
+Warning:
+Cannot insert breakpoint 1.
+Cannot access memory at address 0x17e3b
+
+Command aborted.
