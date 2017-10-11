@@ -1,0 +1,3 @@
+[submodule "rump/rumprun"]
+	path = rump/rumprun
+	url = https://github.com/speas038/rumprun.git
